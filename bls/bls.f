@@ -216,8 +216,8 @@ ccccccc Flags for switching on scalars, similar to ivarvisc. Sees if
 ccccccc I am reading any scalar data from files 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
-      integer rt_tempflag
-      integer rt_saltflag
+      integer rt_tempflag = 1
+      integer rt_saltflag = 1
       
 
 
@@ -510,43 +510,57 @@ c
          write(*,*) '  Random seed (seed)             :',seed
       end if
 
-c
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccc  Reading if ivarvisc is on and whether it would have to 
+ccccccc  read a file with scalar profiles
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+
 c     Varying Viscosity
 c     Taken that variabe ivarvisc is always present in the file bls.i
       read(10,*) ivarvisc
-      do ith = 1,scalar
-c     rt_scal_fl(ith) - flag for reading initial profile of ith scalar
-c     Keep this as 1 always
-         read(10,*) rt_scal_fl(ith)
+      do ith = 1,scalar  ! scalar has already been defined in par.f. 
+c we need not declare and define it again
+
+c     rt_scalar_flag(ith) - flag for reading initial profile of ith scalar
+c     Keep this as 1 always. This will tell me if I have to read a separate
+c     file for the scalar profile or not.
+
+         read(10,*) rt_scalar_flag(ith)
+
 c     if rt_scal_fl.ne. 0, then read the name of the file providing the
 c     initial scalar profile.
-         if (rt_scal_fl(ith).ne.0) then            
-            read(10,*) rt_scal_prof(ith)
+
+         if (rt_scalar_flag(ith).ne.0) then            
+            read(10,*) rt_scalar_profile(ith)
          end if
+
 c     rt_pr(ith) - Prandtl number of ith scalar         
          read(10,*) rt_pr(ith)
 c     rt_ri(ith) - Richardson number of ith scalar
          read(10,*) rt_ri(ith)
       end do
+
 c      if(ivarvisc.ne.0) then
 c         do x = 1,scalar
 c            read(10,*) pr(x)
 c            read(10,*) gr(x)
 c         end do
 c      end if
+
       write(*,*)'  Varying viscosity               :',ivarvisc
 
 
-      ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 ccccccccc Ritabrata scalar reading
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
-! reading temperature from file "rt_temp.dat"
+! reading scalars from file "rt_scalar_profile(ith)"
       do ith = 1,scalar
          if (rt_tempflag.ne.0)then
-            open(54, status='old', file=rt_scal_prof(ith)) ! what is 'old'?
+            open(54, status='old', file=rt_scalar_profile(ith))
             do y = 1,nyp
-               read(54,*)eta_scal_file(y,ith),scal_from_file(y,ith)
+               read(54,*)eta_scalar_file(y,ith),scalar_from_file(y,ith)
             end do
             close(54)
          end if
