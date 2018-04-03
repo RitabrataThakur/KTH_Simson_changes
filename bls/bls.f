@@ -514,6 +514,20 @@ c
 c     Varying Viscosity
 c
       read(10,*) ivarvisc
+      do ith = 1,scalar
+c     rt_scal_fl(ith) - flag for reading initial profile of ith scalar
+c     Keep this as 1 always
+         read(10,*) rt_scal_fl(ith)
+c     if rt_scal_fl.ne. 0, then read the name of the file providing the
+c     initial scalar profile.
+         if (rt_scal_fl(ith).ne.0) then            
+            read(10,*) rt_scal_prof(ith)
+         end if
+c     rt_pr(ith) - Prandtl number of ith scalar         
+         read(10,*) rt_pr(ith)
+c     rt_ri(ith) - Richardson number of ith scalar
+         read(10,*) rt_ri(ith)
+      end do
 c      if(ivarvisc.ne.0) then
 c         do x = 1,scalar
 c            read(10,*) pr(x)
@@ -521,6 +535,56 @@ c            read(10,*) gr(x)
 c         end do
 c      end if
       write(*,*)'  Varying viscosity               :',ivarvisc
+
+
+      ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccccc Ritabrata scalar reading
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+! reading temperature from file "rt_temp.dat"
+      do ith = 1,scalar
+         if (rt_tempflag.ne.0)then
+            open(54, status='old', file=rt_scal_prof(ith)) ! what is 'old'?
+            do y = 1,nyp
+               read(54,*)eta_scal_file(y,ith),scal_from_file(y,ith)
+            end do
+            close(54)
+         end if
+      end do
+
+! reading salinity from file "rt_sal.dat"
+         
+c      if (rt_saltflag.ne.0)then
+c         open(64, status='old', file='rt_sal.dat') 
+c         do y = 1,nyp
+c            read(64,*)eta_s_file(y),s_from_file(y)
+c         end do
+c         close(64)
+c      end if
+      
+                
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+
+
+c
+c     Poiseuille flow
+c
+c Jose: Reading in the ivarvisc variable from bls.i
+
+c         ivarvisc = 1
+c
+c Jose: varying viscosity
+c
+      if(ivarvisc.ne.0) then
+         open(36,status='old',file='vel.dat')
+         do y=1,nyp
+            read(36,*)eta_file(y),vel(y)
+c     write(*,*)'simson y ', eta(y), ' input_file y',
+c     &              eta_file(y), ' Velocity value', vel(y)
+         end do
+         close(36)
+      end if
       
       t=0.
       xs=0.
@@ -660,52 +724,6 @@ c
          end if
       else if ( fltype.eq.1.or.fltype.eq.4 ) then
 
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-ccccccccc Ritabrata scalar reading
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-         ! reading temperature from file "rt_temp.dat"
-         if (rt_tempflag.ne.0)then
-            open(54, status='old', file='rt_temp.dat') ! what is 'old'?
-            do y = 1,nyp
-               read(54,*)eta_t_file(y),t_from_file(y)
-            end do
-            close(54)
-         end if
-
-         ! reading salinity from file "rt_sal.dat"
-         
-         if (rt_saltflag.ne.0)then
-            open(64, status='old', file='rt_sal.dat') 
-            do y = 1,nyp
-               read(64,*)eta_s_file(y),s_from_file(y)
-            end do
-            close(64)
-         end if
-         
-ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
-
-
-
-c
-c     Poiseuille flow
-c
-c Jose: Reading in the ivarvisc variable from bls.i
-
-c         ivarvisc = 1
-c
-c Jose: varying viscosity
-c
-         if(ivarvisc.ne.0) then
-            open(36,status='old',file='vel.dat')
-            do y=1,nyp
-               read(36,*)eta_file(y),vel(y)
-c               write(*,*)'simson y ', eta(y), ' input_file y',
-c     &              eta_file(y), ' Velocity value', vel(y)
-            end do
-            close(36)
-         end if
-c
 c     Jose: Some random perturbation in the base flow itself.
 c
          vel_nois = 0.0
@@ -745,71 +763,7 @@ c               bu(x,y,1)=1.0-eta(y)**2-.375
             end do
 c            write(*,*) bu(16,y,1), vel(y)
          end do
-c
-c     Scalar profiles and parameters
-c
-         poi_zero = .false.
-c Jose: Check below for definition
-         poi_scal = 1
-         if (scalar.gt.1) then
-            write(*,*) '***********************************'
-            write(*,*) 'Scalar profiles for Poiseuille flow'
-            write(*,*) 'poi_zero = ',poi_zero
-            write(*,*) 'poi_scal = ',poi_scal
-            write(*,*) 'Please change directly in bls.f'
-            write(*,*) '***********************************'
-         end if
-         do ith=1,scalar
-c Jose: To read the Prandtl number from the bls.i file
-c Jose: I had earlier defined Pran in par.f
-            if(ivarvisc.ne.0) then
-               read(10,*) pr(ith)
-               read(10,*) gr(ith)
-            else
-               pr(1) = 0.01
-            endif
 
-            if (scalar.eq.4) then
-               pr(2) = 0.1
-               pr(3) = 0.02
-               pr(4) = 0.01
-            end if
-            m1(ith) = 0.
-            do y=1,nyp
-               do x=1,nx
-                  if (poi_zero) then
-c
-c     Velocity zero
-c
-                     bu(x,y,1) = 0.
-                  end if
-                  if (poi_scal.eq.0) then
-c
-c     Scalar zero
-c
-                     bu(x,y,3+ith) = 0.
-                  else if (poi_scal.eq.1) then
-c
-c     Linear scalar profile, lower wall 0, upper wall 1
-c
-c     Jose: enforce the same boundary conditions
-                     bu(x,y,3+ith) = 1.-(1.-eta(y))/2.
-                  else if (poi_scal.eq.2) then
-c
-c     Linear scalar profile, lower wall 1, upper wall 0
-                     bu(x,y,3+ith) = (1.-eta(y))/2.
-c                  else if(poi_scal.eq.3) then
-c
-c Jose:    Linear scalar profile, lower (-1), upper (0)
-c
-c                     bu(x,y,3+ith) = -(eta(y)-1.)/2.
-                  else
-                     write(*,*) 'poi_scal not between 0 and 3. Stop.'
-                     stop
-                  end if
-               end do
-            end do
-         end do
       else if ( fltype.eq.2.or.fltype.eq.5 ) then
 c
 c     Couette flow
@@ -822,6 +776,75 @@ c
             end do
          end do
       end if
+
+c
+c     Scalar profiles and parameters
+c
+      poi_zero = .false.
+c     Jose: Check below for definition
+      poi_scal = 1
+      if (scalar.gt.1) then
+         write(*,*) '***********************************'
+         write(*,*) 'Scalar profiles for Poiseuille flow'
+         write(*,*) 'poi_zero = ',poi_zero
+         write(*,*) 'poi_scal = ',poi_scal
+         write(*,*) 'Please change directly in bls.f'
+         write(*,*) '***********************************'
+      end if
+      do ith=1,scalar
+c     Jose: To read the Prandtl number from the bls.i file
+c Jose: I had earlier defined Pran in par.f
+c     if(ivarvisc.ne.0) then
+c     read(10,*) pr(ith)
+c     read(10,*) gr(ith)
+c     else
+c     pr(1) = 0.01
+c     endif
+         
+c     if (scalar.eq.4) then
+c     pr(2) = 0.1
+c     pr(3) = 0.02
+c     pr(4) = 0.01
+c     end if
+         pr(ith) = rt_pr(ith)
+         gr(ith) = rt_ri(ith)
+         
+         m1(ith) = 0.
+         do y=1,nyp
+            do x=1,nx
+               if (poi_zero) then
+c     
+c     Velocity zero
+c     
+                  bu(x,y,1) = 0.
+               end if
+               if (poi_scal.eq.0) then
+c     
+c     Scalar zero
+c     
+                  bu(x,y,3+ith) = 0.
+               else if (poi_scal.eq.1) then
+c     
+c     Linear scalar profile, lower wall 0, upper wall 1
+c     
+c     Jose: enforce the same boundary conditions
+                  bu(x,y,3+ith) = 1.-(1.-eta(y))/2.
+               else if (poi_scal.eq.2) then
+c
+c     Linear scalar profile, lower wall 1, upper wall 0
+                  bu(x,y,3+ith) = (1.-eta(y))/2.
+c     else if(poi_scal.eq.3) then
+c
+c     Jose:    Linear scalar profile, lower (-1), upper (0)
+c     
+c     bu(x,y,3+ith) = -(eta(y)-1.)/2.
+               else
+                  write(*,*) 'poi_scal not between 0 and 3. Stop.'
+                  stop
+               end if
+            end do
+         end do
+      end do
 
       close(unit=10)
 
@@ -875,7 +898,6 @@ c
          u0lowin=u2(1,1,1)
       end if
 c
-<<<<<<< HEAD
 
 cc
 cc Ritabrata:
@@ -883,8 +905,7 @@ cc
 
 
 c
-=======
->>>>>>> a0be9c5db624d9a39b5be168b4cfd8d875315afe
+
 c     Generate initial bla field
 c
       do y=1,nyp
