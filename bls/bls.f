@@ -665,7 +665,7 @@ ccccccccc Ritabrata scalar reading
 ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
          ! reading temperature from file "rt_temp.dat"
-         if (rt_tempstatus.ne.0)then
+         if (rt_tempflag.ne.0)then
             open(54, status='old', file='rt_temp.dat') ! what is 'old'?
             do y = 1,nyp
                read(54,*)eta_t_file(y),t_from_file(y)
@@ -675,7 +675,7 @@ ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
          ! reading salinity from file "rt_sal.dat"
          
-         if (rt_salstatus.ne.0)then
+         if (rt_saltflag.ne.0)then
             open(64, status='old', file='rt_sal.dat') 
             do y = 1,nyp
                read(64,*)eta_s_file(y),s_from_file(y)
