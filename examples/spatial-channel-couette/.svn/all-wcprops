@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/simson/!svn/ver/1594/trunk/examples/spatial-channel-couette
+END
+bls.i.couette.baseflow
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/simson/!svn/ver/968/trunk/examples/spatial-channel-couette/bls.i.couette.baseflow
+END
+bls.i.poiseuille.baseflow
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/simson/!svn/ver/968/trunk/examples/spatial-channel-couette/bls.i.poiseuille.baseflow
+END
+bla.i
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/simson/!svn/ver/968/trunk/examples/spatial-channel-couette/bla.i
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/simson/!svn/ver/1594/trunk/examples/spatial-channel-couette/par.f
+END
+bls.i.couette
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/simson/!svn/ver/968/trunk/examples/spatial-channel-couette/bls.i.couette
+END

@@ -1,0 +1,12 @@
+K 10
+svn:ignore
+V 61
+config.log
+i686
+i686_intel
+i686_pgi
+ia64
+x86_64
+x86_64_intel
+
+END

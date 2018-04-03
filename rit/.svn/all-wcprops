@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/simson/!svn/ver/1810/trunk/rit
+END
+cvar.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/1008/trunk/rit/cvar.f
+END
+vecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1506/trunk/rit/vecfft_orig.f
+END
+Makefile.config
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1505/trunk/rit/Makefile.config
+END
+myline.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/340/trunk/rit/myline.f
+END
+rit.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/1642/trunk/rit/rit.f
+END
+plot1.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1506/trunk/rit/plot1.f
+END
+cvecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/1506/trunk/rit/cvecfft_orig.f
+END
+twox.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/850/trunk/rit/twox.f
+END
+twoz.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/339/trunk/rit/twoz.f
+END
+putxzp.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/850/trunk/rit/putxzp.f
+END
+icheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1506/trunk/rit/icheb.f
+END
+xzplane.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1642/trunk/rit/xzplane.f
+END
+getxzp.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/205/trunk/rit/getxzp.f
+END
+yzplane.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/339/trunk/rit/yzplane.f
+END
+rdiscp.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1427/trunk/rit/rdiscp.f
+END
+cvecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1506/trunk/rit/cvecfft_acc.f
+END
+cont5.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1642/trunk/rit/cont5.f
+END
+zwall.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/205/trunk/rit/zwall.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1810/trunk/rit/Makefile
+END
+yline_spec.f
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/850/trunk/rit/yline_spec.f
+END
+submean.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/850/trunk/rit/submean.f
+END
+wpgmr.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1506/trunk/rit/wpgmr.f
+END
+scalef.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/339/trunk/rit/scalef.f
+END
+pgmr.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/1506/trunk/rit/pgmr.f
+END
+putxyp.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/850/trunk/rit/putxyp.f
+END
+xzspec.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/339/trunk/rit/xzspec.f
+END
+reschk.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/340/trunk/rit/reschk.f
+END
+xline.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/rit/xline.f
+END
+getxyp.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/850/trunk/rit/getxyp.f
+END
+scaley.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/339/trunk/rit/scaley.f
+END
+xyplane.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/850/trunk/rit/xyplane.f
+END
+yline.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/205/trunk/rit/yline.f
+END
+zline.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/rit/zline.f
+END
+gauss.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/rit/gauss.f
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/1660/trunk/rit/par.f
+END
+vecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1506/trunk/rit/vecfft_acc.f
+END
+rdcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1008/trunk/rit/rdcheb.f
+END
+blth.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/850/trunk/rit/blth.f
+END

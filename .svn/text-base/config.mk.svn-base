@@ -1,0 +1,86 @@
+#
+# Compilers and flags
+#
+FC                 = 
+F90                = pgf90
+FLAGS              = -r8 -i4 -Mpreprocess -O3 -pc 64 -Kieee -fast -fastsse -Mcache_align -DLINUX_PGI
+LDFLAGS            = -r8 -i4 -Mpreprocess -O3 -pc 64 -Kieee -fast -fastsse -Mcache_align -DLINUX_PGI
+#
+# MPI compiler and flags
+#
+MPI_F90            = mpif90_pgi
+MPI_FLAGS          = -DMPI
+MPI_LDFLAGS        = -DMPI
+#
+# OpenMP compiler and flags
+#
+OMP_F90            = pgf90
+OMP_FLAGS          = -mp -DOPENMP
+OMP_LDFLAGS        = -mp -DOPENMP
+#
+# Additional libraries
+#
+LIBS               = 
+#
+# Big and little endian options
+#
+LEND_FLAG          = 
+BEND_FLAG          = -byteswapio
+#
+# Flag showing whether OpenMP should be used or not
+# Options: [yes,no] (empty is interpreted as no)
+# Note that this option can be overriden by Makefile option as
+# make [mpi=yes][omp=yes]
+#
+omp                =
+#
+# Flag showing whether MPI should be used or not
+# Options: [yes,no] (empty is interpreted as no)
+# Note that this option can be overriden by Makefile option as
+# make [mpi=yes][omp=yes]
+#
+mpi                =
+#
+# Flag showing if little endian should be used or not
+# make [lendian=yes][lendian=no] empty means that big endian will be used
+#
+lendian            = 
+#
+# Global Makefile settings.
+#
+# prefix is the base directory where Simson will be installed.
+# (Binaries will go into /home/guest/pschlatt/simson/i686/bin/)
+#
+prefix             = /home/guest/pschlatt/simson/i686
+#
+# EXESUFFIX is an extension added to each executable e.g. _dbl for
+# double precision.
+#
+EXESUFFIX          = 
+#
+# MACHINE identifies the host machine type
+# Used as default directory for installation
+#
+MACHINE            = i686
+#
+# Pdflatex and bibtex (used to generate documentation)
+#
+PDFLATEX           = /usr/bin/pdflatex
+BIBTEX             = /usr/bin/bibtex
+#
+# Install program to be used
+#
+INSTALL            = install
+#
+# Compile time parameters
+#
+PARAM              = par.f
+#
+# FFT package to be used
+#
+FFT                = ../fft/
+FFTPACK            = cvecfft_acc
+#
+# SHELL environment variable
+#
+SHELL              = /bin/bash

@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/simson/!svn/ver/1807/trunk/pxyst
+END
+Makefile.config
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/1505/trunk/pxyst/Makefile.config
+END
+vecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1506/trunk/pxyst/vecfft_orig.f
+END
+plot1.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1506/trunk/pxyst/plot1.f
+END
+cvecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/simson/!svn/ver/1506/trunk/pxyst/cvecfft_orig.f
+END
+rxys.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1647/trunk/pxyst/rxys.f
+END
+dcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1646/trunk/pxyst/dcheb.f
+END
+icheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1506/trunk/pxyst/icheb.f
+END
+meanpl.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1646/trunk/pxyst/meanpl.f
+END
+transportequation.tex
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1071/trunk/pxyst/transportequation.tex
+END
+ddx.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1646/trunk/pxyst/ddx.f
+END
+ddy.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1646/trunk/pxyst/ddy.f
+END
+transportequation.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1071/trunk/pxyst/transportequation.pdf
+END
+cvecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1506/trunk/pxyst/cvecfft_acc.f
+END
+chebe2.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1248/trunk/pxyst/chebe2.f
+END
+cont5.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1646/trunk/pxyst/cont5.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1807/trunk/pxyst/Makefile
+END
+wpgmr.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1506/trunk/pxyst/wpgmr.f
+END
+rplot.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1646/trunk/pxyst/rplot.f
+END
+mgrid.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/850/trunk/pxyst/mgrid.f
+END
+locsc.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1646/trunk/pxyst/locsc.f
+END
+pgmr.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1506/trunk/pxyst/pgmr.f
+END
+pvar.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1744/trunk/pxyst/pvar.f
+END
+rscale.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1660/trunk/pxyst/rscale.f
+END
+correlation_old.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/882/trunk/pxyst/correlation_old.f
+END
+mxpl.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/216/trunk/pxyst/mxpl.f
+END
+cubipn.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/850/trunk/pxyst/cubipn.f
+END
+mypl.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/216/trunk/pxyst/mypl.f
+END
+correlation.f
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1647/trunk/pxyst/correlation.f
+END
+rplot2.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1646/trunk/pxyst/rplot2.f
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1660/trunk/pxyst/par.f
+END
+vecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/1506/trunk/pxyst/vecfft_acc.f
+END
+filter.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1646/trunk/pxyst/filter.f
+END
+infilt.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1646/trunk/pxyst/infilt.f
+END
+rdcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1646/trunk/pxyst/rdcheb.f
+END
+pxyst.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1744/trunk/pxyst/pxyst.f
+END
+tchebe.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1646/trunk/pxyst/tchebe.f
+END

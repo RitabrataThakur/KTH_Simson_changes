@@ -1,0 +1,128 @@
+# ***********************************************************************
+#
+# $HeadURL$
+# $LastChangedDate$
+# $LastChangedBy$
+# $LastChangedRevision$
+#
+# ***********************************************************************
+
+# Makefile for Simson bla
+
+# Gobal configuration file
+include ../config.mk
+
+# Gobal Makefile rules
+include ../rules.mk
+
+# Define fortran files in use
+main     = bla
+ppar     = ppar.o
+start    = preprbl.o prhs.o getdt.o wall_time.o rkcoeff.o stopnow.o \
+           rescale.o
+input    = rparambl.o comment.o
+bl       = cubip.o 
+bld      = bflow.o step.o dstep.o xlim.o blfou.o blshift.o cbflow.o \
+           splfre.o rbflow.o bfvort.o rbla.o
+spl      = spline.o spliet.o
+read     = rdiscbl.o rwavebl.o lenbox.o rstreakbl.o rwavesbl.o
+write    = wdiscbl.o 
+fftsub   = fft2db.o fft2df.o
+fft      = $(FFTPACK).o
+diffint  = dcheb.o icheb.o d2cheb.o rdcheb.o
+corr     = corrd.o corrp.o corrd2.o
+solv     = setmat.o trid.o setmacrhs.o setmac.o tridc.o crhsc.o 
+stat     = boxamp.o boxcfl.o wampbl.o wcflbl.o wplbl.o wplbl_serial.o \
+           boxext.o plnmin.o plnmax.o wextbl.o boxcflbf.o
+xys      = wxys.o boxxys.o
+get      = getxy.o getxz.o 
+put      = putxy.o putxz.o 
+bc       = evald.o evalbc.o solvbc.o cwallbc.o
+high     = linearbl.o nonlinbl.o 
+forc     = fring.o locf.o gtrip.o trip.o tzran.o ffun.o
+misc     = ran2.o cnxtmp.o
+galil    = xysh.o xzsh.o fshift.o
+mdep     = ctim.o cflush.o time_string.o
+les      = init_filter.o bandsolver.o hpf_y.o lpf_y.o rparamles.o les.o \
+           sgs_stress.o filter_cutoff.o mhd_poi.o
+pressure = fringp.o linearp.o nonlinp.o wdiscp.o
+mpistuff = mpi_findout.o getpxz.o putpxz.o 
+wallr    = steadywallrough.o rparamwallrough.o auxwallrough.o updatewallrough.o
+jet      = jetinit.o
+
+# Dependent files on par.f
+dep     = $(main).o $(start) $(read) $(write) $(stat) $(get) $(put) \
+	  $(high) $(fftsub) $(fft) $(bld) $(bc) $(forc) $(galil) $(xys) \
+	  $(input) $(les) $(pressure) $(wallr) $(jet)
+
+# Independent files
+idep    = $(diffint) $(solv) $(bl) $(mdep) $(corr) $(misc) $(spl)
+
+# Big/little endian (big endian is default)
+ifeq "$(lendian)" "yes"
+	ENDIAN = $(LEND_FLAG)
+else
+	ENDIAN = $(BEND_FLAG)
+endif
+
+# OpenMP and MPI
+ifeq "$(mpi)" "yes"
+	ifeq "$(omp)" "yes"
+		FF90 = $(MPI_F90)
+		FFLAGS = $(FLAGS) $(MPI_FLAGS) $(OMP_FLAGS)
+		LLDFLAGS = $(LDFLAGS) $(MPI_LDFLAGS) $(OMP_LDFLAGS)
+		mpiadd = $(mpistuff)
+	else
+		FF90 = $(MPI_F90)
+		FFLAGS = $(FLAGS) $(MPI_FLAGS)
+		LLDFLAGS = $(LDFLAGS) $(MPI_LDFLAGS)
+		mpiadd = $(mpistuff)
+	endif
+else
+	ifeq "$(omp)" "yes"
+		FF90 = $(OMP_F90)
+		FFLAGS = $(FLAGS) $(OMP_FLAGS)
+		LLDFLAGS = $(LDFLAGS) $(OMP_LDFLAGS)
+	else
+		FF90 = $(F90)
+		FFLAGS = $(FLAGS)
+		LLDFLAGS = $(LDFLAGS)
+	endif
+endif
+
+
+all: $(main)$(EXESUFFIX)
+
+%.o: %.f
+	@echo " Compiling $*.f with $(FF90) $(FFLAGS) $(ENDIAN) -c" ;\
+	$(FF90) $(FFLAGS) $(ENDIAN) -c $*.f ;\
+
+$(main)$(EXESUFFIX): $(dep) $(idep) $(ppar) $(mpiadd) Makefile.config
+	@echo " " ;\
+	echo  " Linking object files into executable image '$(main)$(EXESUFFIX)'"
+	@echo " "
+	$(FF90) $(LLDFLAGS) $(ENDIAN) -o $@ $(dep) $(idep) $(mpiadd) $(ppar)
+	@echo " " ; echo " Done!" ; echo " "
+
+$(dep):	par.f
+
+$(ppar): par.f
+
+latest_revision: $(dep) $(idep)
+	@echo "      write(*,*) 'Latest Revision in Repository: " `grep LastChangedRevision *.f | cut -d " " -f 3 | sort | tail -n 1` "'" > 'latest_revision'
+
+latest_revision: ppar.f
+
+ppar.o : latest_revision
+
+clean:
+	@echo " " ; echo " Cleaning up all object files and '$(main)$(EXESUFFIX)'"
+	@-rm -f *.o *.F $(main)$(EXESUFFIX) ; echo " "
+
+dist:
+	@echo " " ; echo " Copying global $(PARAM) to $(main) directory as par.f" ; echo " "
+	@cp ../$(PARAM) par.f
+
+install: $(main)$(EXESUFFIX)
+	@echo " " ; echo " Installing $(main)$(EXESUFFIX) in $(prefix)/bin/$(main)$(EXESUFFIX)" ;\
+	$(INSTALL) $(main)$(EXESUFFIX) $(prefix)/bin/ ; echo " "

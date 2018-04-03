@@ -1,0 +1,743 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1822/branches/bla2dparallel
+END
+splfre.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/splfre.f
+END
+filter_cutoff.f
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/simson/!svn/ver/1175/branches/bla2dparallel/filter_cutoff.f
+END
+ctim.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/ctim.f
+END
+vecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/simson/!svn/ver/786/branches/bla2dparallel/vecfft_orig.f
+END
+plnmin.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/plnmin.f
+END
+plnmax.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/plnmax.f
+END
+bandsolver.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/simson/!svn/ver/786/branches/bla2dparallel/bandsolver.f
+END
+putpxz_x.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/786/branches/bla2dparallel/putpxz_x.f
+END
+comment.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/787/branches/bla2dparallel/comment.f
+END
+putpxz_z.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/786/branches/bla2dparallel/putpxz_z.f
+END
+wextbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/wextbl.f
+END
+dcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/dcheb.f
+END
+preprbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/preprbl.f
+END
+updatewallrough.f
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/simson/!svn/ver/786/branches/bla2dparallel/updatewallrough.f
+END
+cwallbc.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/cwallbc.f
+END
+bla_info.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1465/branches/bla2dparallel/bla_info.f
+END
+bflow.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/1180/branches/bla2dparallel/bflow.f
+END
+stopnow.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/stopnow.f
+END
+cvecfft.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/786/branches/bla2dparallel/cvecfft.txt
+END
+nonlinbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1666/branches/bla2dparallel/nonlinbl.f
+END
+cbflow.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/787/branches/bla2dparallel/cbflow.f
+END
+boxcfl.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1399/branches/bla2dparallel/boxcfl.f
+END
+rdiscbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1747/branches/bla2dparallel/rdiscbl.f
+END
+wampbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1822/branches/bla2dparallel/wampbl.f
+END
+locf.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1641/branches/bla2dparallel/locf.f
+END
+fshift.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/fshift.f
+END
+cflush.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/cflush.f
+END
+time_string.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/simson/!svn/ver/786/branches/bla2dparallel/time_string.f
+END
+gtrip.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/gtrip.f
+END
+boxcflbf.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/786/branches/bla2dparallel/boxcflbf.f
+END
+cvecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1432/branches/bla2dparallel/cvecfft_acc.f
+END
+wdiscbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1747/branches/bla2dparallel/wdiscbl.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1634/branches/bla2dparallel/Makefile
+END
+pre_nlin_3d.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1457/branches/bla2dparallel/pre_nlin_3d.f
+END
+boxxys.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1762/branches/bla2dparallel/boxxys.f
+END
+setmat.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/setmat.f
+END
+directfiles.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1509/branches/bla2dparallel/directfiles.f
+END
+tzran.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/tzran.f
+END
+ffun.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1433/branches/bla2dparallel/ffun.f
+END
+sgs_stress.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/simson/!svn/ver/1156/branches/bla2dparallel/sgs_stress.f
+END
+rparambl.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1747/branches/bla2dparallel/rparambl.f
+END
+getxy.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/getxy.f
+END
+rwavebl.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1305/branches/bla2dparallel/rwavebl.f
+END
+cubip.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/cubip.f
+END
+bfvort.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/bfvort.f
+END
+fring.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/1305/branches/bla2dparallel/fring.f
+END
+jetinit.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1636/branches/bla2dparallel/jetinit.f
+END
+xlim.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/xlim.f
+END
+wcflbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1302/branches/bla2dparallel/wcflbl.f
+END
+wxys.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1678/branches/bla2dparallel/wxys.f
+END
+nonlinp.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1665/branches/bla2dparallel/nonlinp.f
+END
+wplbl_serial.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/786/branches/bla2dparallel/wplbl_serial.f
+END
+rkcoeff.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rkcoeff.f
+END
+dstep.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/dstep.f
+END
+vecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/simson/!svn/ver/786/branches/bla2dparallel/vecfft_acc.f
+END
+les.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/1408/branches/bla2dparallel/les.f
+END
+rwavesbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rwavesbl.f
+END
+bfgrad.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1459/branches/bla2dparallel/bfgrad.f
+END
+boxamp.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/1508/branches/bla2dparallel/boxamp.f
+END
+rdcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rdcheb.f
+END
+d2cheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/d2cheb.f
+END
+solvbc.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/solvbc.f
+END
+setmacrhs.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/801/branches/bla2dparallel/setmacrhs.f
+END
+wdiscp.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/789/branches/bla2dparallel/wdiscp.f
+END
+putxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/putxz.f
+END
+blshift.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/blshift.f
+END
+corrd2.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/corrd2.f
+END
+rbflow.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rbflow.f
+END
+xysh.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/xysh.f
+END
+evalbc.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/evalbc.f
+END
+xzsh.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1190/branches/bla2dparallel/xzsh.f
+END
+Makefile.config
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/simson/!svn/ver/787/branches/bla2dparallel/Makefile.config
+END
+bla.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/1822/branches/bla2dparallel/bla.f
+END
+cvecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/786/branches/bla2dparallel/cvecfft_orig.f
+END
+crhsc.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/crhsc.f
+END
+ran2.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/ran2.f
+END
+multfiles.f
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/simson/!svn/ver/1763/branches/bla2dparallel/multfiles.f
+END
+hpf_y.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/hpf_y.f
+END
+getdt.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/1665/branches/bla2dparallel/getdt.f
+END
+fft2db.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/fft2db.f
+END
+blfou.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/blfou.f
+END
+init_filter.f
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/simson/!svn/ver/786/branches/bla2dparallel/init_filter.f
+END
+getpxz_x.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1434/branches/bla2dparallel/getpxz_x.f
+END
+lpf_y.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/lpf_y.f
+END
+corrd.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/corrd.f
+END
+icheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/icheb.f
+END
+getpxz_z.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/786/branches/bla2dparallel/getpxz_z.f
+END
+putpxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/787/branches/bla2dparallel/putpxz.f
+END
+fft2df.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/fft2df.f
+END
+step.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/step.f
+END
+prhs.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1156/branches/bla2dparallel/prhs.f
+END
+setmac.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/801/branches/bla2dparallel/setmac.f
+END
+mpi_findout.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1204/branches/bla2dparallel/mpi_findout.f
+END
+wall_time.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/786/branches/bla2dparallel/wall_time.f
+END
+steadywallrough.f
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/simson/!svn/ver/786/branches/bla2dparallel/steadywallrough.f
+END
+getpxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/787/branches/bla2dparallel/getpxz.f
+END
+fringp.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/fringp.f
+END
+corrp.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/corrp.f
+END
+rparamles.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rparamles.f
+END
+rstreakbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rstreakbl.f
+END
+evald.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/evald.f
+END
+spliet.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/spliet.f
+END
+getxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/getxz.f
+END
+ppar.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1190/branches/bla2dparallel/ppar.f
+END
+trid.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/trid.f
+END
+tridc.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/tridc.f
+END
+rparamwallrough.f
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rparamwallrough.f
+END
+vecfft.txt
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/786/branches/bla2dparallel/vecfft.txt
+END
+boxext.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/boxext.f
+END
+cnxtmp.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/cnxtmp.f
+END
+rescale.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/rescale.f
+END
+trip.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/786/branches/bla2dparallel/trip.f
+END
+mhd_poi.f
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/786/branches/bla2dparallel/mhd_poi.f
+END
+rbla.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1483/branches/bla2dparallel/rbla.f
+END
+wplbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/wplbl.f
+END
+auxwallrough.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/786/branches/bla2dparallel/auxwallrough.f
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/1747/branches/bla2dparallel/par.f
+END
+bfvort3.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1457/branches/bla2dparallel/bfvort3.f
+END
+lenbox.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/lenbox.f
+END
+linearbl.f
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1747/branches/bla2dparallel/linearbl.f
+END
+putxy.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/786/branches/bla2dparallel/putxy.f
+END
+linearp.f
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1666/branches/bla2dparallel/linearp.f
+END
+spline.f
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/786/branches/bla2dparallel/spline.f
+END

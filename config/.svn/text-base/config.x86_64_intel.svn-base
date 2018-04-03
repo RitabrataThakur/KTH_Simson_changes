@@ -1,0 +1,40 @@
+#
+# FFT library and FFT package to be used
+#
+FFT='../fft/'
+FFTPACK='cvecfft_acc'
+
+#
+# Compiler options (LDFLAGS is set to FLAGS if empty)
+#
+F90='ifort'
+FLAGS='-r8 -i4 -fpp -O3 -fp-model precise -DLINUX_INTEL'
+LDFLAGS=''
+
+#
+# MPI compiler options (MPI_LDFLAGS is set to MPI_FLAGS if empty)
+#
+MPI_F90=''
+MPI_FLAGS=''
+MPI_LDFLAGS=''
+
+#
+# OpenMP compiler options (OMP_F90 is set to F90 if empty)
+# (OMP_LDFLAGS is set to OMP_FLAGS if empty)
+#
+OMP_F90=''
+OMP_FLAGS=''
+OMP_LDFLAGS=''
+
+#
+# Flags for big and little endian (default is big endian)
+#
+lendian='yes'
+LEND_FLAG='-convert little_endian'
+BEND_FLAG='-convert big_endian'
+
+#
+# Parameter copied from root directory if make dist is used
+# (default is par.f)
+#
+PARAM='par.f'

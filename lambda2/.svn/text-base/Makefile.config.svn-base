@@ -1,0 +1,80 @@
+# ***********************************************************************
+#
+# $HeadURL$
+# $LastChangedDate$
+# $LastChangedBy$
+# $LastChangedRevision$
+#
+# ***********************************************************************
+
+# Makefile for Simson lambda2
+
+# Gobal configuration file
+include ../config.mk
+
+# Gobal Makefile rules
+include ../rules.mk
+
+# Define fortran files in use
+main    = lambda2
+obj     = $(main).o dcheb.o eigenvalue.o comp_lam.o \
+	  write_dx.o write_hdf.o write_vtk.o write_engold.o $(FFTPACK).o
+
+main2   = hdf2bla
+hdfobj  = hdf2bla.o $(FFTPACK).o
+libhdf  = 
+pre     =
+vtkpar  =
+
+# Big/little endian (big endian is default)
+ifeq "$(lendian)" "yes"
+	ENDIAN = $(LEND_FLAG)
+else
+	ENDIAN = $(BEND_FLAG)
+endif
+
+# Include HDF support
+ifeq "$(hdf)" "yes"
+	pre = -DHDF
+	libhdf  = -lmfhdf -ldf -ljpeg -lz
+endif
+
+# Include VTK support
+ifeq "$(vtk)" "yes"
+	vtkpar  = -DVTK
+endif
+
+
+all: $(main)$(EXESUFFIX) $(main2)$(EXESUFFIX)
+
+ifeq "$(omp)" "yes"
+$(main)$(EXESUFFIX): $(obj) Makefile.config
+	@echo " " ; echo " Linking object files into executable image '$(main)$(EXESUFFIX)'"
+	@echo " "
+	$(OMPF90) $(LDFLAGS) $(ENDIAN) $(vtkpar) $(pre) -o $@ $(obj) $(libhdf) $(OMP_FLAGS)  $(OMP_LDFLAGS)
+	@echo " " ; echo " Done!" ; echo " "
+else
+$(main)$(EXESUFFIX): $(obj) Makefile.config
+	@echo " " ; echo " Linking object files into executable image '$(main)$(EXESUFFIX)'"
+	@echo " "
+	$(F90) $(LDFLAGS) $(ENDIAN) $(vtkpar) $(pre) -o $@ $(obj) $(libhdf)
+	@echo " " ; echo " Done!" ; echo " "
+endif
+
+$(main2)$(EXESUFFIX): $(hdfobj) Makefile.config
+	@echo " " ; echo " Linking object files into executable image '$(main2)$(EXESUFFIX)'"
+	@echo " "
+	$(F90) $(LDFLAGS) $(ENDIAN) -o $@ $(hdfobj)
+	@echo " " ; echo " Done!" ; echo " "
+
+clean:
+	@echo " " ; echo " Cleaning up all object files and '$(main)$(EXESUFFIX)'"
+	@-rm -f *.o $(main)$(EXESUFFIX) $(main2)$(EXESUFFIX) ; echo " "
+
+dist:
+
+install: $(main)$(EXESUFFIX)
+	@echo " " ; echo " Installing $(main)$(EXESUFFIX) in $(prefix)/bin/$(main)$(EXESUFFIX)" ;\
+	@echo " " ; echo " Installing $(main2)$(EXESUFFIX) in $(prefix)/bin/$(main2)$(EXESUFFIX)" ;\
+	$(INSTALL) $(main)$(EXESUFFIX) $(prefix)/bin/
+	$(INSTALL) $(main2)$(EXESUFFIX) $(prefix)/bin/ ;echo " "

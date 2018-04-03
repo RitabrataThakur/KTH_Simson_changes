@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/simson/!svn/ver/1491/trunk/config
+END
+config.i686_pgi
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/263/trunk/config/config.i686_pgi
+END
+config.i686
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/153/trunk/config/config.i686
+END
+config.x86_64_pgi
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/758/trunk/config/config.x86_64_pgi
+END
+config.i686_gfortran
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/simson/!svn/ver/1486/trunk/config/config.i686_gfortran
+END
+config.x86_64
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/166/trunk/config/config.x86_64
+END
+config.x86_64_gfortran
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/simson/!svn/ver/1486/trunk/config/config.x86_64_gfortran
+END
+config.lucidor
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/simson/!svn/ver/757/trunk/config/config.lucidor
+END
+config.lindgren
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/1491/trunk/config/config.lindgren
+END
+config.ia64
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/155/trunk/config/config.ia64
+END
+config.tunnan
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/simson/!svn/ver/1188/trunk/config/config.tunnan
+END
+config.blue_gene
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/744/trunk/config/config.blue_gene
+END
+config.i686_intel
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/simson/!svn/ver/1490/trunk/config/config.i686_intel
+END
+config.lenngren
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/757/trunk/config/config.lenngren
+END
+config.x86_64_intel
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/1490/trunk/config/config.x86_64_intel
+END

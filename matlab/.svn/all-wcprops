@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/simson/!svn/ver/1801/trunk/matlab
+END
+comp_eig_par.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/1800/trunk/matlab/comp_eig_par.m
+END
+chebdif.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/147/trunk/matlab/chebdif.m
+END
+retauf.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/1783/trunk/matlab/retauf.m
+END
+example_read.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/1342/trunk/matlab/example_read.m
+END
+writecase.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/336/trunk/matlab/writecase.m
+END
+fe.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/1780/trunk/matlab/fe.m
+END
+textline.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/147/trunk/matlab/textline.m
+END
+fourdif.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1786/trunk/matlab/fourdif.m
+END
+dns2engold.m
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/336/trunk/matlab/dns2engold.m
+END
+read_piano.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1619/trunk/matlab/read_piano.m
+END
+readpart.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1298/trunk/matlab/readpart.m
+END
+lambda2.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/336/trunk/matlab/lambda2.m
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/144/trunk/matlab/README
+END
+diffield.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/147/trunk/matlab/diffield.m
+END
+curlfield.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/148/trunk/matlab/curlfield.m
+END
+plot_fsc.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/392/trunk/matlab/plot_fsc.m
+END
+ccat.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/147/trunk/matlab/ccat.m
+END
+pdf_par.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1801/trunk/matlab/pdf_par.m
+END
+chebint.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/147/trunk/matlab/chebint.m
+END
+fds.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1787/trunk/matlab/fds.m
+END
+fou2phys.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/336/trunk/matlab/fou2phys.m
+END
+phys2fou.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/336/trunk/matlab/phys2fou.m
+END
+readdns.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1794/trunk/matlab/readdns.m
+END
+gradfield.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/336/trunk/matlab/gradfield.m
+END
+writeengold.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/336/trunk/matlab/writeengold.m
+END

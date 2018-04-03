@@ -1,0 +1,33 @@
+# ***********************************************************************
+#
+# $HeadURL$
+# $LastChangedDate$
+# $LastChangedBy$
+# $LastChangedRevision$
+#
+# ***********************************************************************
+
+# Makefile for Simson ParaView scripts
+
+# Gobal configuration file
+include ../config.mk
+
+# Gobal Makefile rules
+include ../rules.mk
+
+main  = driver.py
+
+SUBDIRS= \
+paraviewscripts \
+
+
+all: $(main) $(SUBDIRS:%=%.all)
+
+
+clean:
+	@echo " " ; echo " Cleaning up all compiled python files"
+	@-rm -f *.pyc  ; echo " "
+
+install:
+	@echo " " ; echo " Installing $(main) in $(prefix)/bin/" ;\
+	$(INSTALL) $(main) $(prefix)/bin/ ; echo " "

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/simson/!svn/ver/1317/trunk/common
+END
+wpgmr.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/1317/trunk/common/wpgmr.f
+END
+plot1.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/850/trunk/common/plot1.f
+END
+getxyp.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/850/trunk/common/getxyp.f
+END
+getxzp.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/413/trunk/common/getxzp.f
+END
+pgmr.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1317/trunk/common/pgmr.f
+END
+putxyp.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/882/trunk/common/putxyp.f
+END
+putxzp.f
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/850/trunk/common/putxzp.f
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/simson/!svn/ver/1195/trunk/examples/spatial-fsc
+END
+par.omp.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1195/trunk/examples/spatial-fsc/par.omp.f
+END
+fsc.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/928/trunk/examples/spatial-fsc/fsc.i
+END
+par.serial.f
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/simson/!svn/ver/1195/trunk/examples/spatial-fsc/par.serial.f
+END
+bla.init.i
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/928/trunk/examples/spatial-fsc/bla.init.i
+END
+bls.i
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/simson/!svn/ver/928/trunk/examples/spatial-fsc/bls.i
+END
+par.mpi.f
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1195/trunk/examples/spatial-fsc/par.mpi.f
+END
+bla.forcing.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/simson/!svn/ver/928/trunk/examples/spatial-fsc/bla.forcing.i
+END
+run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/simson/!svn/ver/928/trunk/examples/spatial-fsc/run.sh
+END

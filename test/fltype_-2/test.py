@@ -1,0 +1,339 @@
+#!/usr/bin/env python
+############################################################################
+#
+# $HeadURL: https://www.mech.kth.se/svn/simson/trunk/test/fltype_-2/test.py $
+# $LastChangedDate: 2010-09-03 15:20:32 +0200 (Fri, 03 Sep 2010) $
+# $LastChangedBy: mattias@MECH.KTH.SE $
+# $LastChangedRevision: 1507 $
+#
+############################################################################
+#
+# Regression testing framework
+# See option --help for more info
+#
+# Written by Mattias Chevalier 2007
+#
+############################################################################
+
+
+import sys
+import os
+import string
+import hashlib
+import shutil
+import glob
+import time
+
+############################################################################
+# Functions
+############################################################################
+
+#
+# Add message about time date revision compiler and who compiled it to log file
+#
+def testHeader(f,case):
+
+    # Use dir name 
+    st  = "--- General information --------------------------------------------" + "\n"
+    st += "Case                        ::: fltype = -2" + "\n"
+    st += "Test                        ::: " + case + "\n"
+    st += "Started                     ::: " + time.ctime() + "\n"
+    st += "--- Build information ----------------------------------------------" + "\n"
+    
+    # Read standard output from Simson
+    buildVersion = ''
+    buildTime = ''
+    buildSystem1 = ''
+    buildSystem2 = ''
+    buildSystem3 = ''
+    buildResolution = ''
+#    buildHost = ''
+#    buildCompiler = ''
+    try:
+        g = open("test.stdout","rt")
+        lines = g.readlines()
+        g.close()
+
+        # Loop over lines in standard output from Simson
+
+        for line in lines:
+
+            if string.find(line,"bla $Rev") > 0:
+                line = string.replace(line,"*","")
+                line = string.strip(line)
+#                line = string.replace(line,"bla","")
+                buildVersion = "Build version (from trunk)  ::: " + line + "\n"
+
+            if string.find(line,"Started              :") > 0:
+                line = string.strip(line)
+                line = string.replace(line,"Started              : ","")
+                buildTime =    "Build time                  ::: " + line + "\n"
+
+            if string.find(line,"OpenMP") > 0:
+                line = string.strip(line)
+                line = string.replace(line,"Compiled             : ","")
+                buildSystem1 = "Built                       ::: " + line + "\n"
+
+            if string.find(line," MPI") > 0:
+                line = string.strip(line)
+                line = string.replace(line,"Compiled             : ","")
+                buildSystem2 = "Built                       ::: " + line + "\n"
+
+            if string.find(line,"Linked FFT") > 0:
+                line = string.strip(line)
+                line = string.replace(line,"Linked FFT package   : ","")
+                buildSystem3 = "Built with FFT package      ::: " + line + "\n"
+
+            if string.find(line,"nx,ny,nz :") > 0:
+                line = string.strip(line)
+                line = string.replace(line,"nx,ny,nz :","")
+                line = string.strip(line)
+                buildResolution =    "Built with resolution       ::: " + line + "\n"
+
+#            if string.find(line,"Build host") > 0:
+#                line = string.replace(line,"*","")
+#                line = string.strip(line)
+#                line = string.replace(line,"Build host","")
+#                buildHost = "Build host                  :::" + line + "\n"
+
+#            if string.find(line,"Build FC") > 0:
+#                line = string.replace(line,"*","")
+#                line = string.strip(line)
+#                line = string.replace(line,"Build FC","")
+#                buildCompiler = "Build compiler              :::" + line + "\n"
+    except:
+        buildVersion = "Build version (from trunk)  :::" + "\n"
+        buildTime = "Build time                  :::" + "\n"
+        buildSystem1 = "Build system                :::" + "\n"
+        buildSystem2 = "Build system                :::" + "\n"
+        buildSystem3 = "Build system                :::" + "\n"
+        buildResolution = "Build resolution            :::" + "\n"
+#        buildHost = "Build host                  :::" + "\n"
+#        buildCompiler = "Build compiler              :::" + "\n"
+
+    st += buildVersion
+    st += buildTime
+    st += buildSystem1
+    st += buildSystem2
+    st += buildSystem3
+    st += buildResolution
+#    st += buildHost
+#    st += buildCompiler
+    st += "--- Standard tests -------------------------------------------------" + "\n"
+    f.write(st)
+
+#
+# Add message about final time to log file
+#
+def testFooter(f,case,ntests):
+    st  = "--------------------------------------------------------------------" + "\n"
+    st += "Ended                       ::: " + time.ctime() + "\n"
+    st += "Number of tests             ::: %d" %(ntests) + "\n"
+    f.write(st)
+
+#
+# Standard test performed on all test cases
+# Checks whether files have been created and computes
+# checksum and file size
+#
+def standardTest(f,case):
+
+    # Make number of tests global
+    global ntests
+
+    # Test aboc, bedg and bout files
+    filelist = ["fsc.i", "bls.i", "bla.i", "test.u", "bl200.u", "bl200.u.p"]
+    st = ""
+    el = "              "
+    for file in filelist:
+        ll = len(file)
+        ll1 = 11-ll
+        if ll1 < 0:
+            el2 = ''
+        else:
+            el2 = el[:ll1]
+
+        isf = os.path.isfile(file)
+        if isf:
+            hashobj = hashlib.md5()
+            hashobj.update(file)
+            cks = hashobj.hexdigest()
+            bct = os.stat(file)[6]
+        else:
+            cks = ""
+            bct = 0
+
+        st += "Generated    " + el2 + "  %s  ::: %s " %(file,isf) + "\n"
+        st += "Checksum on  " + el2 + "  %s  ::: %s " %(file,cks) + "\n"
+        st += "Bytecount on " + el2 + "  %s  ::: %d " %(file,bct) + "\n"
+        ntests = ntests + 3
+
+    # Analyze standard output from Simson
+    inputFileVersion = ''
+    isf = os.path.isfile("test.stdout")
+    if isf:
+        g = open("test.stdout","rt")
+        lines = g.readlines()
+        g.close()
+        for line in lines:        
+
+            if string.find(line,"Version of input file (version)") > 0:
+                line = string.strip(line)
+                line = string.replace(line,"Version of input file (version)      :","")
+                line = string.strip(line)
+                inputFileVersion =    "Input file version          ::: " + line + "\n"
+
+        st += inputFileVersion
+        ntests = ntests + 1
+
+    f.write(st)
+
+#
+# Comparing results with default
+#
+def testResults():
+    print '--------------------------------------------------------------------' + "\n"
+
+    if ntests == nok:
+        print "Ran # tests all passed" + "\n"
+    else:
+        print "Ran # tests # passed # failed" + "\n"
+
+#
+#
+#
+def evaluateTestLog():
+    print '--------------------------------------------------------------------' + "\n"
+    # Make a local sum if required
+
+    #If the in file does not exist reaname it to the out file and notify
+    #stdout
+
+    #Note that if a test is missing in the in file but everything is ok
+    #with the existing test replace in with out file. It the outfile
+    #contains fewer tests but everything is ok replace in file with out
+    #file.
+
+    #Grep line by line up until ::: in the in file and search for that
+    #string within the out file
+
+
+
+############################################################################
+# Main program
+############################################################################
+
+#
+# If arguments supplied run only those test cases
+# Create
+#if sys.argv([]> 1):
+#	tstlist = 
+#elif
+#caselist = ['test1','test2','test3']
+caselist = ['test1']
+#caselist = ['test1','test2']
+print caselist
+#if --help:
+#	write help
+
+#if --check:
+#	compare with .in file
+
+# Update test.ainp based on data from trunk xedge-default.ainp
+
+
+#
+# Go through the test cases
+#
+for case in caselist:
+
+    # Count number of sub tests for each case
+    ntests = 0
+
+    # Create temporary testing directory and enter it 
+    # The temporary directory is removed by the global test script testedge.py
+    if os.path.isdir(case):
+	os.chdir(case)
+        listing = os.listdir('.')
+        #        listing = glob.glob('*')
+        for file in listing:
+            os.remove(file)
+    else:
+	os.mkdir(case)
+	os.chdir(case)
+
+    # Compile bla with the proper par.f
+    print '  Compiling...'
+    shutil.copyfile('../../../examples/temporal-fsc/par.f','../../../par.f')
+    shutil.copyfile('../../../examples/temporal-fsc/par.f','./par.f')
+    os.system("make -C ../../.. allred >& make.err > make.out")
+
+    # Test 1
+    if case == "test1":
+        print '  Copying files to test directory...'
+        shutil.copyfile('../../../examples/temporal-fsc/bls.eigenmode.i','bls.i')
+        shutil.copyfile('../../../examples/temporal-fsc/bla.init.i','bla.i')
+        shutil.copyfile('../../../examples/temporal-fsc/fsc.i','fsc.i')
+        shutil.copyfile('../../../examples/temporal-fsc/os.i','os.i')
+
+    # Test 2
+    if case == "test2":
+#        print 'Running test2...'
+        print '  Copying files to test directory...'
+
+
+    # Test 3
+    if case == "test3":
+#        print 'Running test3...'
+        print '  Copying files to test directory...'
+
+    # Run fsc
+#    g = open('fsc.i','w')
+#    st = "0. \n 20000 \n 1e-15 \n 30 \n 0 \n 0"
+#    lines = g.writelines(st)
+#    g.close()
+    print '  Running fsc...'
+    os.system("../../../bls/fsc > fsc.out ")
+
+    # Run bls
+    print '  Running bls...'
+    os.system("../../../bls/bls > bls.out")
+
+    # Run bla
+    print '  Running bla...'
+    os.system("../../../bla/bla > test.stdout")
+
+    # Open log file for test results
+    casefile = case + ".out"
+    f = open(casefile,'w')
+
+    # Create file header
+    testHeader(f,case)
+
+    # Common test for all cases
+    standardTest(f,case)
+
+    # Write out header for the additional tests
+#    st  = "--- Additional tests -----------------------------------------------" + "\n"
+#    f.write(st)
+
+    # Additional tests (specific bug tests etc)
+#    if case == "test1":
+#        print 'test1 additional tests'
+
+    # Write footer
+    testFooter(f,case,ntests)
+
+    # Close log file
+    f.close()
+
+    # If local test true sum up results
+
+    # Return to root directory
+    os.chdir("../")
+
+# End loop
+
+
+
+#if __name__ == "__main__":

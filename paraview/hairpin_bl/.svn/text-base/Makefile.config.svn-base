@@ -1,0 +1,31 @@
+# ***********************************************************************
+#
+# $HeadURL$
+# $LastChangedDate$
+# $LastChangedBy$
+# $LastChangedRevision$
+#
+# ***********************************************************************
+
+# Makefile for Simson ParaView scripts
+
+# Gobal configuration file
+include ../../config.mk
+
+# Gobal Makefile rules
+include ../../rules.mk
+
+main  = single_frame_aircraft.py \
+	single_frame_hairpin_volume.py \
+	single_frame_hairpin_contour.py
+
+all: $(main)
+
+
+clean:
+	@echo " " ; echo " Cleaning up all compiled python files"
+	@-rm -f *.pyc  ; echo " "
+
+install:
+	@echo " " ; echo " Installing $(main) in $(prefix)/bin/paraviewscripts/" ;\
+	$(INSTALL) $(main) $(prefix)/bin/paraviewscripts/ ; echo " "

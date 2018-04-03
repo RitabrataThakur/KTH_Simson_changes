@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/simson/!svn/ver/1807/trunk/cmp
+END
+namp.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/850/trunk/cmp/namp.f
+END
+power.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/power.f
+END
+vecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1506/trunk/cmp/vecfft_orig.f
+END
+plnmin.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/850/trunk/cmp/plnmin.f
+END
+Makefile.config
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1505/trunk/cmp/Makefile.config
+END
+plnmax.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/850/trunk/cmp/plnmax.f
+END
+comxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/comxz.f
+END
+cvecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/1506/trunk/cmp/cvecfft_orig.f
+END
+getxy.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/getxy.f
+END
+getxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/954/trunk/cmp/getxz.f
+END
+rdisca.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/990/trunk/cmp/rdisca.f
+END
+dcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/200/trunk/cmp/dcheb.f
+END
+wcamp.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/wcamp.f
+END
+fft2db.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1506/trunk/cmp/fft2db.f
+END
+boxext.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/200/trunk/cmp/boxext.f
+END
+wdisca.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/879/trunk/cmp/wdisca.f
+END
+fft2df.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1506/trunk/cmp/fft2df.f
+END
+symm_z.f
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1659/trunk/cmp/symm_z.f
+END
+cmp.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/1659/trunk/cmp/cmp.f
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/1659/trunk/cmp/par.f
+END
+vecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1506/trunk/cmp/vecfft_acc.f
+END
+cvecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1506/trunk/cmp/cvecfft_acc.f
+END
+boxamp.f
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/simson/!svn/ver/850/trunk/cmp/boxamp.f
+END
+add.f
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/simson/!svn/ver/1643/trunk/cmp/add.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/simson/!svn/ver/1807/trunk/cmp/Makefile
+END
+putxy.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/putxy.f
+END
+putxz.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/putxz.f
+END
+wcext.f
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/simson/!svn/ver/850/trunk/cmp/wcext.f
+END

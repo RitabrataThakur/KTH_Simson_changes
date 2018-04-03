@@ -1,0 +1,346 @@
+[1;34m*******************************************************************************[m
+[1;34m** Updating bla                                                              **[m
+[1;34m** usage: make [mpi=yes][omp=yes][arch=Linux|Linux_PGI|AIX|BG]][wrapper=yes] **[m
+[1;34m*******************************************************************************[m
+***************************************
+** compiling (MPI) bla.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) preprbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) prhs.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) getdt.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wall_time.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rkcoeff.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) stopnow.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rescale.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) part_ini.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rdiscbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rwavebl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) lenbox.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rstreakbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rwavesbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wdiscbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) boxamp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) boxcfl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wampbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wcflbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wplbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wplbl_serial.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) boxext.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) plnmin.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) plnmax.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wextbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) boxcflbf.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) getxy.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) getxz.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) putxy.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) putxz.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) linearbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) nonlinbl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) advection.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) part_adv.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) fft2db.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) fft2df.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) bflow.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) step.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) dstep.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) xlim.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) blfou.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) blshift.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) cbflow.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) splfre.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rbflow.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) bfvort.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rbla.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) evald.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) evalbc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) solvbc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) cwallbc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) fring.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) locf.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) gtrip.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) trip.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) tzran.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) ffun.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) xysh.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) xzsh.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) fshift.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wxys.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) boxxys.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rparambl.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) comment.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) init_filter.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) bandsolver.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) hpf_y.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) lpf_y.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rparamles.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) les.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) sgs_stress.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) filter_cutoff.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) mhd_poi.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) cvecfft_acc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) fringp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) linearp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) nonlinp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) wdiscp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rparamwallrough.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) auxwallrough.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) steadywallrough.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) updatewallrough.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) jetinit.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) bfvort3.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) pre_nlin_3d.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) arpck2bla.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) bla2arpck.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) varvisc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) getpxz.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) putpxz.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) dcheb.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) icheb.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) d2cheb.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) rdcheb.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) setmat.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) trid.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) setmacrhs.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) setmac.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) tridc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) crhsc.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) cubip.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) ctim.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) cflush.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) time_string.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) corrd.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) corrp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) corrd2.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) ran2.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) cnxtmp.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) spline.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) spliet.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) mpi_findout.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** compiling (MPI) ppar.f on Linux_ifort with mpif90
+***************************************
+***************************************
+** linking (MPI) bla on Linux_ifort with mpif90
+***************************************

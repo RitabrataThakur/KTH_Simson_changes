@@ -1,0 +1,68 @@
+# ***********************************************************************
+#
+# $HeadURL$
+# $LastChangedDate$
+# $LastChangedBy$
+# $LastChangedRevision$
+#
+# ***********************************************************************
+
+# Makefile for Simson bls
+
+# Gobal configuration file
+include ../config.mk
+
+# Gobal Makefile rules
+include ../rules.mk
+
+# Define fortran files in use
+main    = bls
+main2   = fsc
+bl      = rbla.o cubip.o step.o dstep.o xlim.o
+bld     = blvel.o
+noise   = stnois.o
+rw      = wdiscpbl.o rdiscp.o
+get     = getxyp.o getxzp.o
+put     = putxzp.o putxyp.o
+
+# Dependent files
+dep     = $(main).o $(rw) $(get) $(put) $(noise)
+
+# Independent files
+idep    = stokes.o ran2.o icheb.o $(bl) $(bld) $(FFTPACK).o
+
+# Big/little endian (big endian is default)
+ifeq "$(lendian)" "yes"
+	ENDIAN = $(LEND_FLAG)
+else
+	ENDIAN = $(BEND_FLAG)
+endif
+
+
+all: $(main)$(EXESUFFIX) $(main2)$(EXESUFFIX)
+
+$(main)$(EXESUFFIX): $(dep) $(idep) Makefile.config
+	@echo " " ; echo " Linking object files into executable image '$(main)$(EXESUFFIX)'"
+	@echo " "
+	$(F90) $(LDFLAGS) $(ENDIAN) -o $@ $(dep) $(idep)
+	@echo " " ; echo " Done bls!" ; echo " "
+
+$(dep): par.f
+
+clean:
+	@echo " " ; echo " Cleaning up all object files and '$(main)$(EXESUFFIX)'"
+	@-rm -f *.o *.F $(main)$(EXESUFFIX) $(main2)$(EXESUFFIX); echo " "
+
+dist:
+	@echo " " ; echo " Copying global $(PARAM) to $(main) directory as par.f" ; echo " "
+	@cp ../$(PARAM) par.f
+
+$(main2)$(EXESUFFIX): fsc.o Makefile.config
+	$(F90) $(LDFLAGS) $(ENDIAN) -o $@ fsc.o 
+	@echo " " ; echo " Done fsc!" ; echo " "
+
+install: $(main)$(EXESUFFIX) $(main2)$(EXESUFFIX)
+	@echo " " ; echo " Installing $(main)$(EXESUFFIX) in $(prefix)/bin/$(main)$(EXESUFFIX)" ;\
+	$(INSTALL) $(main)$(EXESUFFIX) $(prefix)/bin/ ; echo " "
+	@echo " Installing $(main2)$(EXESUFFIX) in $(prefix)/bin/$(main2)$(EXESUFFIX)" ;\
+	$(INSTALL) $(main2)$(EXESUFFIX) $(prefix)/bin/

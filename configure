@@ -1,0 +1,461 @@
+#!/bin/sh -e
+# ***********************************************************************
+#
+# $HeadURL: https://www.mech.kth.se/svn/simson/trunk/configure $
+# $LastChangedDate: 2007-10-28 22:11:48 +0100 (Sun, 28 Oct 2007) $
+# $LastChangedBy: mattias@MECH.KTH.SE $
+# $LastChangedRevision: 772 $
+#
+# ***********************************************************************
+#
+# Configure script for the Simson code
+#
+# ***********************************************************************
+#
+# Default value is not configured
+#
+CONFIGURED="FALSE"
+#
+# Error trap handler
+#
+function exit_handler() 
+{
+  echo "exit_handler $xcode called" >> config.log
+  if [ $CONFIGURED = "TRUE" ]; then
+    echo ''
+    echo '-------------------------------------------------------------------'
+    echo 'Successfully configured Simson!'
+    echo '-------------------------------------------------------------------'
+    echo ''
+    echo "Type \"$GMAKE\" to build Simson and then \"$GMAKE install\" to install."
+    echo ''
+  else
+    echo ''
+    echo '-------------------------------------------------------------------'
+    echo 'Error! Simson NOT CONFIGURED!'
+    echo '-------------------------------------------------------------------'
+    echo ''
+  fi
+}
+trap exit_handler EXIT
+#
+# Remove old log-file
+#
+rm -f config.log
+touch config.log
+#
+# Set default srcdir
+#
+srcdir=.
+#
+# Clear some variables
+#
+prefix=
+EXESUFFIX=
+PDFLATEX=
+BIBTEX=
+SHELL=
+lendian=
+#
+# Scan command line arguments
+#
+echo "Parsing command line arguments" >> config.log
+while [ "$1" ]; do
+    case "$1" in
+	--prefix=*)
+	    prefix="${1#--prefix=}"
+	    if [[ "$prefix" = */bin ]]; then
+		prefix="${prefix##/bin}"
+		echo '-------------------------------------------------------------------'
+		echo 'WARNING !!!'
+		echo '/bin is appended to prefix automatically'
+		echo "I assume you meant --prefix=${prefix}"
+		echo '-------------------------------------------------------------------'
+	    fi
+
+	    ;;
+	--config=*)
+	    config_suffix="${1#--config=}"
+	    ;;
+	--suffix=*)
+	    EXESUFFIX="${1#--suffix=}"
+	    ;;
+	--help)
+#
+# Print help message
+#
+	    echo '
+Usage: configure [options]
+
+Options: [defaults in brackets after descriptions]
+
+Miscellaneous:
+  --help                      Print this message
+  --config=SUFFIX             Choose configure file suffix [uname -m].
+                              (picks file from the config/ directory)
+
+Directories and files:
+  --prefix=PREFIX             Install files in PREFIX [./$MACHINE]
+  --suffix=SUFFIX             Append SUFFIX to installed program names []
+
+External packages (for --with and --without option):
+  pdflatex                    Complete path and name of pdflatex binary.
+  bibtex                      Complete path and name of bibtex binary.
+'
+	    exit 1
+	    ;;
+	--with*)
+	    if [[ "$1" == --without-* ]]; then
+		option="${1#--without-}"
+		value=" "
+		echo \"$option\" \"$value\"
+	    elif [[ "$1" == --with-*=* ]]; then
+		option="${1#--with-}"
+		value="${option#*=}"
+		option="${option%%=*}"
+	    elif [[ "$1" == --with-* ]]; then
+		option="${1#--with-}"
+		value=""
+		option="${option%%=*}"
+	    else
+		echo "Specify --with-package=location or --without-package"
+		echo "Try $0 --help"
+		exit 1
+	    fi
+	    case "$option" in
+		pdflatex)
+		    PDFLATEX="$value"
+		    ;;
+		bibtex)
+		    BIBTEX="$value"
+		    ;;
+		hdf)
+		    HDF="$value"
+		    ;;
+		*)
+		    echo "Unknown package $option"
+		    echo "Try $0 --help"
+		    exit 1
+	    esac
+	    ;;
+	*)
+	    echo "Unknown option $1"
+	    echo "Try $0 --help"
+	    exit 1
+	    ;;
+    esac
+    shift
+done
+#
+# Identify type of computer
+#
+if ! [ $MACHINE ]; then
+    MACHINE=`uname -m`
+fi
+#
+# Set default config suffix
+#
+if [ -z "$config_suffix" ]; then
+    config_suffix=$MACHINE
+fi
+#
+# Find configuration file
+#
+echo
+echo '-------------------------------------------------------------------'
+echo 'Configuring Simson'
+echo '-------------------------------------------------------------------'
+echo
+config_file=$srcdir/config/config.$config_suffix
+echo "Retrieving parameters from '$config_file'"
+if ! [ -f $config_file ]; then
+    echo "Configuration '$config_suffix' not available"
+    echo "Available values are:"
+    ls $srcdir/config/config.* | sed "s:$srcdir/config/config\.::"
+    echo "( See directory $srcdir/config )"
+    exit 1
+fi
+. $config_file
+#
+# FLAGS is copied into LDFLAGS if LDFLAGS is empty
+#
+if ! [ "$LDFLAGS" ]; then
+    echo "FLAGS is copied into LDFLAGS since LDFLAGS was empty"
+    LDFLAGS="$FLAGS"
+fi
+if ! [ "$MPI_LDFLAGS" ]; then
+    echo "MPI_FLAGS is copied into MPI_LDFLAGS since MPI_LDFLAGS was empty"
+    MPI_LDFLAGS="$MPI_FLAGS"
+fi
+if ! [ "$OMP_LDFLAGS" ]; then
+    echo "OMP_FLAGS is copied into OMP_LDFLAGS since OMP_LDFLAGS was empty"
+    OMP_LDFLAGS="$OMP_FLAGS"
+fi
+if ! [ "$OMP_F90" ]; then
+    echo "F90 is copied into OMP_F90 since OMP_F90 was empty"
+    OMP_F90="$F90"
+fi
+#
+# Set shell
+#
+SHELL="/bin/bash"
+#
+# Global compile time parameter file that is used when doing make all and make dist. If
+# PARAM is empty set default value
+#
+if ! [ "$PARAM" ]; then
+    PARAM="par.f"
+    echo "Compile time parameter file not defined. Set default to $PARAM"
+fi
+#
+# If FFT empty set its default value
+#
+if ! [ "$FFT" ]; then
+    FFT="../fft/"
+    echo "FFT directory not defined. Set default to $FFT"
+fi
+#
+# If FFTPACK empty set its default value
+#
+if ! [ "$FFTPACK" ]; then
+    FFTPACK="cvecfft_acc"
+    echo "FFT package not defined. Set default to $FFTPACK"
+fi
+#
+# Try to find "install" or "cp -p" or similar command for 
+# installing files.
+#
+if ! [ "$INSTALL" ]; then
+    echo 'Looking for appropriate install command ...'
+    mkdir tstdir
+    echo hej > tstfile
+    chmod 755 tstfile
+    for INSTALL in 'install -C' 'install' 'cp --preserve=mode' 'cp -p' 'bummer'; do
+	if $INSTALL tstfile tstdir >> config.log 2>&1 && diff tstfile tstdir/tstfile && [ -x tstfile ]; then
+	    break
+	fi
+    done
+    rm tstdir/* tstfile
+    rmdir tstdir
+fi
+if [ "$INSTALL" = bummer ]; then
+    echo 'Could not find working installation program!' 1>&2
+    exit 1
+else
+    echo 'Using "'"$INSTALL"'" to install files!'
+fi
+#
+# Look for pdflatex and bibtex
+#
+echo "Looking for pdflatex" >> config.log
+if ! [ "$PDFLATEX" ]; then
+    echo 'Looking for pdflatex ...'
+    PDFLATEX=`type -p pdflatex 2>> config.log || [ "x" ]`
+fi
+if [ $PDFLATEX ]; then
+    echo '-- Found!'
+    echo "Looking for bibtex" >> config.log
+    if ! [ "$BIBTEX" ]; then
+	echo 'Looking for bibtex ...'
+	BIBTEX=`type -p bibtex 2>> config.log || [ "x" ]`
+    fi
+    if [ $BIBTEX ]; then
+	echo '-- Found!'
+    fi
+else
+    echo 'WARNING! Not found!'
+fi
+#
+# Default prefix value
+#
+if ! [ $prefix ]; then
+  if [ $MACHINE ]; then
+    prefix=./$MACHINE
+  else
+    prefix=`uname -m `
+  fi
+fi
+#
+# Create install directories if necessary
+#
+for installdi in $prefix $prefix/bin $prefix/share \
+$prefix/share/doc $prefix/share/doc/Simson
+do
+  if [ ! -d $installdi ]; then 
+    if mkdir $installdi ; then
+      echo "Installation directory '$installdi' created"
+    else
+      echo "Installation directory '$installdi' does not exist.
+      "; exit 1
+    fi
+  fi
+done
+#
+# Convert any relative path to absolute path
+#
+abs_srcdir=`cd $srcdir && pwd`
+if ! [ "$srcdir" == . ]; then
+  srcdir=$abs_srcdir
+fi
+prefix=`cd $prefix && pwd`
+#
+# Create global configuration file
+#
+CONFIG_FILE="#
+# Compilers and flags
+#
+FC                 = $FC
+F90                = $F90
+FLAGS              = $FLAGS
+LDFLAGS            = $LDFLAGS
+#
+# MPI compiler and flags
+#
+MPI_F90            = $MPI_F90
+MPI_FLAGS          = $MPI_FLAGS
+MPI_LDFLAGS        = $MPI_LDFLAGS
+#
+# OpenMP compiler and flags
+#
+OMP_F90            = $OMP_F90
+OMP_FLAGS          = $OMP_FLAGS
+OMP_LDFLAGS        = $OMP_LDFLAGS
+#
+# Additional libraries
+#
+LIBS               = $LIBS
+#
+# Big and little endian options
+#
+LEND_FLAG          = $LEND_FLAG
+BEND_FLAG          = $BEND_FLAG
+#
+# Flag showing whether OpenMP should be used or not
+# Options: [yes,no] (empty is interpreted as no)
+# Note that this option can be overriden by Makefile option as
+# make [mpi=yes][omp=yes]
+#
+omp                =
+#
+# Flag showing whether MPI should be used or not
+# Options: [yes,no] (empty is interpreted as no)
+# Note that this option can be overriden by Makefile option as
+# make [mpi=yes][omp=yes]
+#
+mpi                =
+#
+# Flag showing if little endian should be used or not
+# make [lendian=yes][lendian=no] empty means that big endian will be used
+#
+lendian            = $lendian
+#
+# Global Makefile settings.
+#
+# prefix is the base directory where Simson will be installed.
+# (Binaries will go into $prefix/bin/)
+#
+prefix             = $prefix
+#
+# EXESUFFIX is an extension added to each executable e.g. _dbl for
+# double precision.
+#
+EXESUFFIX          = $EXESUFFIX
+#
+# MACHINE identifies the host machine type
+# Used as default directory for installation
+#
+MACHINE            = $MACHINE
+#
+# Pdflatex and bibtex (used to generate documentation)
+#
+PDFLATEX           = $PDFLATEX
+BIBTEX             = $BIBTEX
+#
+# Install program to be used
+#
+INSTALL            = $INSTALL
+#
+# Compile time parameters
+#
+PARAM              = $PARAM
+#
+# FFT package to be used
+#
+FFT                = $FFT
+FFTPACK            = $FFTPACK
+#
+# SHELL environment variable
+#
+SHELL              = $SHELL"
+#
+# Try to find GNU make, unless already defined
+#
+if ! [ "$GMAKE" ]; then
+    for GMAKE in gmake make; do
+	if [[ "`$GMAKE --version`" = "GNU Make"* ]]; then
+	    break
+	else
+	    GMAKE=
+	fi
+    done
+fi
+#
+# Make sure that we have make!
+#
+if [ "$GMAKE" ]; then
+    echo "GNU make found as $GMAKE"
+else
+    echo '-------------------------------------------------------------------'
+    echo 'make not found!'
+    echo 'You must have make to build Simson.'
+    echo '-------------------------------------------------------------------'
+    exit 1
+fi
+#
+# Create config.mk configuration makefile fragment
+#
+rm -f config.mk
+echo "$CONFIG_FILE" > config.mk
+echo
+echo 'Successfully created config.mk'
+#
+# Create links to the global par.f file
+#
+#cd bla;   ln -sf ../par.f par.f; cd ..
+#cd bls;   ln -sf ../par.f par.f; cd ..
+#cd cmp;   ln -sf ../par.f par.f; cd ..
+#cd fou;   ln -sf ../par.f par.f; cd ..
+#cd pxyst; ln -sf ../par.f par.f; cd ..
+#cd rit;   ln -sf ../par.f par.f; cd ..
+#cd rps;   ln -sf ../par.f par.f; cd ..
+#cd sta;   ln -sf ../par.f par.f; cd ..
+#
+# Make sure that install directory can be installed into
+#
+if ! [ -w $prefix/bin ];then
+  echo "
+-------------------------------------------------------------------
+The directories $prefix/bin is write-protected. 
+To 'make install' you will need write-access to this directory.
+Alternatively, change the installation directory using the --prefix
+option.
+-------------------------------------------------------------------
+"
+fi 
+echo
+#
+# It's safest to "make clean" here, because some files may otherwise
+# not be properly re-built. In any case, "make clean" ensures that
+# the build-directory structure is created, and configures
+# all subdirectories.
+#
+$GMAKE clean
+echo
+echo '######################### config.mk ###############################'
+cat config.mk
+echo '####################### END config.mk #############################'
+#
+# Done!
+#
+CONFIGURED="TRUE"
+exit 0

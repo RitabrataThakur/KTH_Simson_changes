@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/simson/!svn/ver/1807/trunk/xys_add
+END
+xys_add.f
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/879/trunk/xys_add/xys_add.f
+END
+Makefile.config
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1505/trunk/xys_add/Makefile.config
+END
+read_xys.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/882/trunk/xys_add/read_xys.f
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/1660/trunk/xys_add/par.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1807/trunk/xys_add/Makefile
+END
+wxys.f
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/simson/!svn/ver/882/trunk/xys_add/wxys.f
+END

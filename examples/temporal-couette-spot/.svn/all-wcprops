@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/simson/!svn/ver/1594/trunk/examples/temporal-couette-spot
+END
+par.f
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/simson/!svn/ver/1594/trunk/examples/temporal-couette-spot/par.f
+END
+bla.spot.i
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/simson/!svn/ver/927/trunk/examples/temporal-couette-spot/bla.spot.i
+END
+bls.localized.i
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/simson/!svn/ver/927/trunk/examples/temporal-couette-spot/bls.localized.i
+END
+run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/simson/!svn/ver/927/trunk/examples/temporal-couette-spot/run.sh
+END

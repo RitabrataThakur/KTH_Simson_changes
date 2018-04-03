@@ -1,0 +1,53 @@
+# ***********************************************************************
+#
+# $HeadURL$
+# $LastChangedDate$
+# $LastChangedBy$
+# $LastChangedRevision$
+#
+# ***********************************************************************
+
+# Makefile for Simson xys_add
+
+# Gobal configuration file
+include ../config.mk
+
+# Gobal Makefile rules
+include ../rules.mk
+
+# Define fortran files in use
+main    = xys_add
+sub     = read_xys.o wxys.o
+
+# Dependent files on par.f
+dep     = $(main).o $(sub)
+
+# Big/little endian (big endian is default)
+ifeq "$(lendian)" "yes"
+	ENDIAN = $(LEND_FLAG)
+else
+	ENDIAN = $(BEND_FLAG)
+endif
+
+
+all: $(main)$(EXESUFFIX)
+
+$(main)$(EXESUFFIX): $(dep) Makefile.config
+	@echo " " ; echo " Linking object files into executable image '$(main)$(EXESUFFIX)'"
+	@echo " "
+	$(F90) $(LDFLAGS) $(ENDIAN) -o $@ $(dep)
+	@echo " " ; echo " Done!" ; echo " "
+
+$(dep):	par.f
+
+clean:
+	@echo " " ; echo " Cleaning up all object files and '$(main)$(EXESUFFIX)'"
+	@-rm -f *.o $(main)$(EXESUFFIX) ; echo " "
+
+dist:
+	@echo " " ; echo " Copying global $(PARAM) to $(main) directory as par.f" ; echo " "
+	@cp ../$(PARAM) par.f
+
+install: $(main)$(EXESUFFIX)
+	@echo " " ; echo " Installing $(main)$(EXESUFFIX) in $(prefix)/bin/$(main)$(EXESUFFIX)" ;\
+	$(INSTALL) $(main)$(EXESUFFIX) $(prefix)/bin/ ; echo " "

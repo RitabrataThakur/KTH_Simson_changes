@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/simson/!svn/ver/1807/trunk/lambda2
+END
+vecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/1506/trunk/lambda2/vecfft_orig.f
+END
+Makefile.config
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1505/trunk/lambda2/Makefile.config
+END
+inquire2.net
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/575/trunk/lambda2/inquire2.net
+END
+cvecfft_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/simson/!svn/ver/1506/trunk/lambda2/cvecfft_orig.f
+END
+script.net
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/15/trunk/lambda2/script.net
+END
+dcheb.f
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/1468/trunk/lambda2/dcheb.f
+END
+inquire2.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/575/trunk/lambda2/inquire2.cfg
+END
+write_vtk.f
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1746/trunk/lambda2/write_vtk.f
+END
+settings.in
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1690/trunk/lambda2/settings.in
+END
+time_string.f
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/1506/trunk/lambda2/time_string.f
+END
+clenshaw_orig.f
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/simson/!svn/ver/1567/trunk/lambda2/clenshaw_orig.f
+END
+write_dx.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/1555/trunk/lambda2/write_dx.f
+END
+hdf.inc
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/simson/!svn/ver/558/trunk/lambda2/hdf.inc
+END
+cvecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/1506/trunk/lambda2/cvecfft_acc.f
+END
+comp_lam.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/1745/trunk/lambda2/comp_lam.f
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1807/trunk/lambda2/Makefile
+END
+view_hdf.net
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/558/trunk/lambda2/view_hdf.net
+END
+hdf2bla.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1506/trunk/lambda2/hdf2bla.f
+END
+lambda2.f
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/1745/trunk/lambda2/lambda2.f
+END
+clenshaw.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/1655/trunk/lambda2/clenshaw.f
+END
+video.net
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/simson/!svn/ver/15/trunk/lambda2/video.net
+END
+double.f
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/simson/!svn/ver/1555/trunk/lambda2/double.f
+END
+write_xml.f
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/simson/!svn/ver/1690/trunk/lambda2/write_xml.f
+END
+write_hdf.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/850/trunk/lambda2/write_hdf.f
+END
+inquire.net
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/simson/!svn/ver/15/trunk/lambda2/inquire.net
+END
+write_engold.f
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/simson/!svn/ver/850/trunk/lambda2/write_engold.f
+END
+conv_lam.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/523/trunk/lambda2/conv_lam.sh
+END
+vecfft_acc.f
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/simson/!svn/ver/1506/trunk/lambda2/vecfft_acc.f
+END
+eigenvalue.f
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/52/trunk/lambda2/eigenvalue.f
+END
+merge_vtk.py
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/simson/!svn/ver/1723/trunk/lambda2/merge_vtk.py
+END
+conv_jpg.sh
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/simson/!svn/ver/523/trunk/lambda2/conv_jpg.sh
+END
