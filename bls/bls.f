@@ -38,7 +38,8 @@ c
       include 'par.f'
 c
 c     Main storage
-c
+c     
+c     Q. Why is it 3+scalar?         
       complex ur(memnx,memny,memnz,3+scalar)
 c
 c     Step 2 storage
@@ -197,6 +198,28 @@ c
       integer :: bas_nois = -10254
       real :: bas_ed = 0.01
       logical :: ibas_nois = .false.
+
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccc Ritabrata: defining scalar flag. all changes made by me start with "rt_"
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+c    nyp is the number of y points (ny). nx, ny, nz are defined in par.f which this file uses
+
+      real rt_temp(nyp)
+      real rt_salt(nyp)
+      real rt_temperature_noise(nyp) ! I do not know temperature noise is really required
+
+      real rt_pr(scalar)   ! is it really required? or has it been alreay defined          
+
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccc Flags for switching on scalars, similar to ivarvisc. Sees if
+ccccccc I am reading any scalar data from files 
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+      integer rt_tempflag
+      integer rt_saltflag
+      
+
 
       write(*,*) '********************************************'//
      &     '***********************'
@@ -636,6 +659,34 @@ c
             end if
          end if
       else if ( fltype.eq.1.or.fltype.eq.4 ) then
+
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccccc Ritabrata scalar reading
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+         ! reading temperature from file "rt_temp.dat"
+         if (rt_tempstatus.ne.0)then
+            open(54, status='old', file='rt_temp.dat') ! what is 'old'?
+            do y = 1,nyp
+               read(54,*)eta_t_file(y),t_from_file(y)
+            end do
+            close(54)
+         end if
+
+         ! reading salinity from file "rt_sal.dat"
+         
+         if (rt_salstatus.ne.0)then
+            open(64, status='old', file='rt_sal.dat') 
+            do y = 1,nyp
+               read(64,*)eta_s_file(y),s_from_file(y)
+            end do
+            close(64)
+         end if
+         
+ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
+
+
 c
 c     Poiseuille flow
 c
@@ -824,6 +875,16 @@ c
          u0lowin=u2(1,1,1)
       end if
 c
+<<<<<<< HEAD
+
+cc
+cc Ritabrata:
+cc
+
+
+c
+=======
+>>>>>>> a0be9c5db624d9a39b5be168b4cfd8d875315afe
 c     Generate initial bla field
 c
       do y=1,nyp
