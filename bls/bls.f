@@ -512,7 +512,7 @@ c
 
 c
 c     Varying Viscosity
-c
+c     Taken that variabe ivarvisc is always present in the file bls.i
       read(10,*) ivarvisc
       do ith = 1,scalar
 c     rt_scal_fl(ith) - flag for reading initial profile of ith scalar
