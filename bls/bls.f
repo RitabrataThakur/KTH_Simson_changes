@@ -189,7 +189,7 @@ c     Jose: Additional variables for channel flow with varying viscosity
 c
       real vel(nyp),eta_file(nyp)
       real gr(scalar)
-      integer ivarvisc
+      integer ivarvisc 
 c
 c     Jose: For base flow noise
 c
@@ -210,16 +210,26 @@ c    nyp is the number of y points (ny). nx, ny, nz are defined in par.f which t
       real rt_temperature_noise(nyp) ! I do not know temperature noise is really required
 
       real rt_pr(scalar)   ! is it really required? or has it been alreay defined          
-
+      real rt_ri(scalar)
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 ccccccc Flags for switching on scalars, similar to ivarvisc. Sees if
-ccccccc I am reading any scalar data from files 
+ccccccc I am reading any scalar data from files.
+ccccccc updates: these two flags are probaly not required, but keep them 
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
-      integer rt_tempflag = 1
-      integer rt_saltflag = 1
+      integer :: rt_tempflag = 1
+      integer :: rt_saltflag = 1
       
-
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccc eta_scalar_file is just y variable from the file (temp.dat or salt.dat)
+ccccccc and scalar_from_file is just a column on (nyp X 1) scalar values
+ccccccc rt_scalar_profile will read the names of the scalar files. It has 
+ccccccc a dimension of "scalar" for the number of files it has to read. 
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+      integer rt_scalar_flag(scalar)
+      character*40 rt_scalar_profile(scalar)
+      real eta_scalar_file(nyp, scalar)
+      real scalar_from_file(nyp,scalar)
 
       write(*,*) '********************************************'//
      &     '***********************'
@@ -516,6 +526,7 @@ ccccccc  read a file with scalar profiles
 cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
 
 
+
 c     Varying Viscosity
 c     Taken that variabe ivarvisc is always present in the file bls.i
       read(10,*) ivarvisc
@@ -532,7 +543,7 @@ c     if rt_scal_fl.ne. 0, then read the name of the file providing the
 c     initial scalar profile.
 
          if (rt_scalar_flag(ith).ne.0) then            
-            read(10,*) rt_scalar_profile(ith)
+      read(10,*) rt_scalar_profile(ith)
          end if
 
 c     rt_pr(ith) - Prandtl number of ith scalar         

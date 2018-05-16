@@ -397,7 +397,10 @@ c     corresponds to a constant translation of the scalar value
 c     (possible due to linearity). The same value could in principle
 c     be given for tbc=2, but only for the homogeneous Neumann condition
 c     (which is however always the case, see above).
-c
+
+c     we have added a new tbc=4 case, where we will read only the T_top
+c     T_bottom and T_prime_bottom. Added on 11/04/2018
+
          if(tbc(ith).eq.0) then
             call comment(10)
             read(10,*) theta0_low(ith)
@@ -447,6 +450,25 @@ c
                write(ios,*) '   Value of scalar at upper boundary: ',
      &              theta0_upp(ith)
             end if
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ccccccc added by Ritabrata to have T_up, T_bottom and T_prime_bottom
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+          else if (tbc(ith).eq.4) then
+            call comment(10)
+            read(10,*) dtheta0_low(ith)
+            call comment(10)
+            read(10,*) theta0_upp(ith)
+            call comment(10)
+            read(10,*) theta0_low(ith)
+            if (my_node.eq.0) then
+               write(ios,*) '   Derivative of scalar ',
+     &              'at lower boundary: ',dtheta0_low(ith)
+               write(ios,*) '   Value of scalar at upper boundary: ',theta0_upp(ith)
+               write(ios,*) '   Value of scalar at lower boundary: ',theta0_low(ith)
+                  
+            end if
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+
          else
             if (my_node.eq.0) then
                write(ios,*) 'tbc not valid.'
