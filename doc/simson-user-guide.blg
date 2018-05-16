@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: simson-user-guide.aux
+The style file: simson.bst
+Database file #1: fluids.bib
+You've used 73 entries,
+            2853 wiz_defined-function locations,
+            1071 strings with 18929 characters,
+and the built_in function-call counts, 45559 in all, are:
+= -- 3647
+> -- 1727
+< -- 45
++ -- 692
+- -- 588
+* -- 3351
+:= -- 6847
+add.period$ -- 162
+call.type$ -- 73
+change.case$ -- 586
+chr.to.int$ -- 70
+cite$ -- 73
+duplicate$ -- 3646
+empty$ -- 3576
+format.name$ -- 825
+if$ -- 8967
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 801
+newline$ -- 310
+num.names$ -- 308
+pop$ -- 1722
+preamble$ -- 1
+purify$ -- 483
+quote$ -- 0
+skip$ -- 1148
+stack$ -- 0
+substring$ -- 2122
+swap$ -- 1893
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 648
+warning$ -- 0
+while$ -- 330
+width$ -- 0
+write$ -- 901

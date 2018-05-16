@@ -1,0 +1,452 @@
+\begin{thebibliography}{73}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+
+\bibitem[{Alvelius \& Skote(2000)}]{Alvelius-Skote}
+Alvelius, K. \& Skote, M. 2000 The performance of a spectral simulation code
+  for turbulence on parllel computers with distributed memory.
+\newblock Technical Report TRITA-MEK 2000:17, Royal Institute of Techmology,
+  Stockholm.
+
+\bibitem[{Bech \emph{et~al.}(1998)Bech, Henningson \&
+  Henkes}]{Bech-Henningson-Henkes}
+Bech, K.~H., Henningson, D.~S. \& Henkes, R. A. W.~M. 1998 Linear and nonlinear
+  development of localized disturbances in zero and adverse pressure gradient
+  boundary-layers.
+\newblock \emph{Phys. Fluids}, \textbf{10}(6), 1405--1418.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHF/10/1405/1}.
+
+\bibitem[{Berlin \& Henningson(1999)}]{Berlin-Henningson:1998}
+Berlin, S. \& Henningson, D.~S. 1999 A new nonlinear mechanism for receptivity
+  of free-stream disturbances.
+\newblock \emph{Phys. Fluids}, \textbf{11}(12), 3749--3760.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHF/11/3749/1}.
+
+\bibitem[{Berlin \emph{et~al.}(1998)Berlin, Kim \&
+  Henningson}]{Berlin-Kim-Henningson}
+Berlin, S., Kim, J. \& Henningson, D.~S. 1998 Control of oblique transition by
+  flow oscillations.
+\newblock Technical Report TRITA-MEK 1998:6, Royal Institute of Techmology,
+  Stockholm.
+
+\bibitem[{Berlin \emph{et~al.}(1994)Berlin, Lundbladh \&
+  Henningson}]{Berlin-Lundbladh-Henningson}
+Berlin, S., Lundbladh, A. \& Henningson, D.~S. 1994 Spatial simulations of
+  oblique transition.
+\newblock \emph{Phys. Fluids}, \textbf{6}, 1949--1951.
+
+\bibitem[{Berlin \emph{et~al.}(1999)Berlin, Wiegel \&
+  Henningson}]{Berlin-Wiegel-Henningson}
+Berlin, S., Wiegel, M. \& Henningson, D.~S. 1999 Numerical and experimental
+  investigation of oblique boundary layer transition.
+\newblock \emph{J. Fluid Mech.}, \textbf{393}, 23--57.
+
+\bibitem[{Bertolotti \emph{et~al.}(1992)Bertolotti, Herbert \&
+  Spalart}]{Bertolotti-Herbert-Spalart}
+Bertolotti, F.~P., Herbert, T. \& Spalart, P.~R. 1992 Linear and nonlinear
+  stability of the {Blasius} boundary layer.
+\newblock \emph{J. Fluid Mech.}, \textbf{242}, 441--474.
+
+\bibitem[{Brandt \emph{et~al.}(2003)Brandt, Cossu, Chomaz, Huerre \&
+  Henningson}]{Brandt-Cossu-Chomaz:2003}
+Brandt, L., Cossu, C., Chomaz, J.-M., Huerre, P. \& Henningson, D.~S. 2003 On
+  the convectively unstable nature of optimal streaks in boundary layers.
+\newblock \emph{J. Fluid Mech.}, \textbf{485}, 221--242.
+
+\bibitem[{Brandt \& Henningson(2002)}]{Brandt-Henningson:2002}
+Brandt, L. \& Henningson, D.~S. 2002 Transition of streamwise streaks in
+  zero-pressure-gradient boundary layers.
+\newblock \emph{J. Fluid Mech.}, \textbf{472}, 229--262.
+
+\bibitem[{Brandt \emph{et~al.}(2004)Brandt, Schlatter \&
+  Henningson}]{Brandt-Schlatter-Henningson:2004}
+Brandt, L., Schlatter, P. \& Henningson, D.~S. 2004 Transition in boundary
+  layers subject to free-stream turbulence.
+\newblock \emph{J. Fluid Mech.}, \textbf{517}, 167--198.
+
+\bibitem[{Bruhn(2006)}]{bruhn_2006}
+Bruhn, T. 2006 \emph{Large-eddy simulation of zero-pressure gradient turbulent
+  boundary layers}.
+\newblock Master's thesis, KTH Mechanics, Stockholm, Sweden.
+
+\bibitem[{Canuto \emph{et~al.}(1988)Canuto, Hussaini, Quarteroni \&
+  Zang}]{Canuto-etal}
+Canuto, C., Hussaini, M.~Y., Quarteroni, A. \& Zang, T.~A. 1988 \emph{Spectral
+  Methods in Fluids Dynamics}.
+\newblock Springer.
+
+\bibitem[{Chevalier(2004)}]{mchevalier:2004}
+Chevalier, M. 2004 \emph{Feedback and {A}djoint {B}ased {C}ontrol in {B}oundary
+  {L}ayer {F}lows}.
+\newblock Ph.D. thesis, Royal Institute of Technology, Department of Mechanics,
+  Stockholm, Sweden.
+
+\bibitem[{Chevalier \emph{et~al.}(2007)Chevalier, H{\oe}pffner, {\AA}kervik \&
+  Henningson}]{chevalier:hoepffner:akervik:henningson:2007}
+Chevalier, M., H{\oe}pffner, J., {\AA}kervik, E. \& Henningson, D.~S. 2007
+  Linear feedback control and estimation applied to instabilities in spatially
+  developing boundary layers.
+\newblock \emph{J. Fluid Mech.}, \textbf{588}, 163--187.
+
+\bibitem[{Chevalier \emph{et~al.}(2002)Chevalier, {\noopsort{hz}}H{\"o}gberg,
+  Berggren \& Henningson}]{mchevalier:mhogberg:2002}
+Chevalier, M., {\noopsort{hz}}H{\"o}gberg, M., Berggren, M. \& Henningson,
+  D.~S. 2002 Linear and nonlinear optimal control in spatial boundary layers.
+\newblock AIAA Paper 2002--2755.
+
+\bibitem[{Choudhari \& Streett(1992)}]{Choudhari-Streett}
+Choudhari, M. \& Streett, C.~L. 1992 A finite reynolds-number approach for the
+  prediction of boundary-layer receptivity in localized regions.
+\newblock \emph{Phys. Fluids~A}, \textbf{4}, 2495--2514.
+
+\bibitem[{Cooke(1950)}]{jcooke:1950}
+Cooke, J.~C. 1950 The boundary layer of a class of infinite yawed cylinders.
+\newblock \emph{Proc. Camb. Phil. Soc.}, \textbf{46}, 645--648.
+
+\bibitem[{Cossu \emph{et~al.}(2007)Cossu, Chevalier \&
+  Henningson}]{ccossu:mchevalier:dhenningson:2007}
+Cossu, C., Chevalier, M. \& Henningson, D.~S. 2007 Optimal secondary energy
+  growth in a plane channel flow.
+\newblock \emph{Phys. Fluids}, \textbf{19}(5), 058107.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHFLE6/19/058107/1}.
+
+\bibitem[{Crouch(1992)}]{Crouch:loc_recept}
+Crouch, J.~D. 1992 Localized receptivity of boundary layers.
+\newblock \emph{Phys. Fluids~A}, \textbf{4}, 1408--1414.
+
+\bibitem[{Elofsson \& Lundbladh(1994)}]{Elofsson-Lundbladh}
+Elofsson, P.~A. \& Lundbladh, A. 1994 Ribbon induced oblique transition in
+  plane poiseulle flow.
+\newblock In Henningson, D.~S. (Editor), \emph{Bypass transition - Proceedings
+  from a mini-workshop}, pages 29--41. KTH.
+\newblock {TRITA-MEK} Technical Report 1994:14, Royal Institute of Technology,
+  Stockholm, Sweden.
+
+\bibitem[{Germano \emph{et~al.}(1991)Germano, Piomelli, Moin \&
+  Cabot}]{germano_piomelli_moin_cabot_1991}
+Germano, M., Piomelli, U., Moin, P. \& Cabot, W.~H. 1991 A dynamic
+  subgrid-scale eddy viscosity model.
+\newblock \emph{Phys. Fluids A}, \textbf{3}(7), 1760--1765.
+
+\bibitem[{Greengard(1991)}]{Greengard:siam}
+Greengard, L. 1991 Spectral integration and two-point boundary value problems.
+\newblock \emph{SIAM J. Numer. Anal.}, \textbf{28}, 1071--1080.
+
+\bibitem[{Henningson(1995)}]{Henningson:Siena}
+Henningson, D.~S. 1995 Bypass transition and linear growth mechanisms.
+\newblock In Benzi, R. (Editor), \emph{Advances in turbulence V}, pages
+  190--204. Kluwer Academic Publishers.
+
+\bibitem[{Henningson \emph{et~al.}(1990)Henningson, Johansson \&
+  Lundbladh}]{Henningson-Johansson-Lundbladh}
+Henningson, D.~S., Johansson, A.~V. \& Lundbladh, A. 1990 On the evolution of
+  localized disturbances in laminar shear flows.
+\newblock In Arnal, D. \& Michel, R. (Editors), \emph{Laminar-Turbulent
+  Transition}, pages 279--284. Springer-Verlag.
+
+\bibitem[{Henningson \& Lundbladh(1994)}]{Henningson-Lundbladh:crossflow}
+Henningson, D.~S. \& Lundbladh, A. 1994 Transition in
+  {F}alkner--{S}kan--{C}ooke flow.
+\newblock \emph{Bull. Am. Phys. Soc.}, \textbf{39}, 1930.
+
+\bibitem[{Henningson \emph{et~al.}(1993)Henningson, Lundbladh \&
+  Johansson}]{Henningson-Lundbladh-Johansson:local}
+Henningson, D.~S., Lundbladh, A. \& Johansson, A.~V. 1993 A mechanism for
+  bypass transition from localized disturbances in wall-bounded shear flows.
+\newblock \emph{J. Fluid Mech.}, \textbf{250}, 169--207.
+
+\bibitem[{Herbst \& Henningson(2006)}]{herbst:henningson:2005}
+Herbst, A.~H. \& Henningson, D.~S. 2006 Periodic {I}nfluence of {P}eriodic
+  {E}xcitation on a {T}urbulent {S}eparation {B}ubble.
+\newblock \emph{Flow, Turbulence and Combustion}, \textbf{76}(1), 1--21.
+
+\bibitem[{Hildings(1997)}]{Hildings}
+Hildings, C. 1997 Simulations of laminar and transitional separation bubbles.
+\newblock Technical report, Department of Mechanics, The Royal Institute of
+  Technology, Stockholm, Sweden.
+
+\bibitem[{H{\oe}pffner \emph{et~al.}(2005)H{\oe}pffner, Chevalier, Bewley \&
+  Henningson}]{jhoepffner:mchevalier:2003}
+H{\oe}pffner, J., Chevalier, M., Bewley, T.~R. \& Henningson, D.~S. 2005 State
+  estimation in wall-bounded flow systems, {P}art {1}. {L}aminar flows.
+\newblock \emph{J. Fluid Mech.}, \textbf{534}, 263--294.
+
+\bibitem[{H{\"o}gberg \& Henningson(1998)}]{Hogberg-Henningson:98}
+H{\"o}gberg, M. \& Henningson, D.~S. 1998 Secondary instability of cross-flow
+  vortices in {F}alkner--{S}kan--{C}ooke boundary layers.
+\newblock \emph{J. Fluid Mech.}, \textbf{368}, 339--357.
+
+\bibitem[{{\noopsort{hz}}H{\"o}gberg
+  \emph{et~al.}(2001){\noopsort{hz}}H{\"o}gberg, Chevalier, Berggren \&
+  Henningson}]{mhogberg:mchevalier:2001}
+{\noopsort{hz}}H{\"o}gberg, M., Chevalier, M., Berggren, M. \& Henningson,
+  D.~S. 2001 Optimal control of wall bounded flows.
+\newblock Scientific Report FOI-R{-}{-}0182{-}{-}SE, Computational Aerodynamics
+  Department, Aeronautics Division, FOI.
+
+\bibitem[{{\noopsort{hz}}H{\"o}gberg
+  \emph{et~al.}(2003){\noopsort{hz}}H{\"o}gberg, Chevalier \&
+  Henningson}]{mhogberg:mchevalier:dhenningson:2003}
+{\noopsort{hz}}H{\"o}gberg, M., Chevalier, M. \& Henningson, D.~S. 2003 Linear
+  compensator control of a pointsource induced perturbation in a
+  {F}alkner--{S}kan--{C}ooke boundary layer.
+\newblock \emph{Phys. Fluids}, \textbf{15}(8), 2449--2452.
+
+\bibitem[{{\noopsort{hz}}H{\"o}gberg \&
+  Henningson(2002)}]{mhogberg:dhenningson}
+{\noopsort{hz}}H{\"o}gberg, M. \& Henningson, D.~S. 2002 Linear optimal control
+  applied to instabilities in spatially developing boundary layers.
+\newblock \emph{J. Fluid Mech.}, \textbf{470}, 151--179.
+
+\bibitem[{{\noopsort{hz}}H{\"o}gberg
+  \emph{et~al.}(2000){\noopsort{hz}}H{\"o}gberg, Henningson \&
+  Berggren}]{mhogberg:dhenningson:mberggren:2000}
+{\noopsort{hz}}H{\"o}gberg, M., Henningson, D.~S. \& Berggren, M. 2000 Optimal
+  control of bypass transition.
+\newblock In C., D. (Editor), \emph{Advances in turbulence VIII}.
+
+\bibitem[{Jeong \& Hussain(1995)}]{jeong_hussain_1995}
+Jeong, J. \& Hussain, F. 1995 On the identification of a vortex.
+\newblock \emph{J. Fluid Mech.}, \textbf{285}, 69--94.
+
+\bibitem[{Kim \emph{et~al.}(1987)Kim, Moin \& Moser}]{Kim-Moin-Moser}
+Kim, J., Moin, P. \& Moser, R. 1987 Turbulence statistics in fully developed
+  channel flow.
+\newblock \emph{J. Fluid Mech.}, \textbf{177}, 133--166.
+
+\bibitem[{Kleiser \& Schumann(1980)}]{Kleiser-Schumann}
+Kleiser, L. \& Schumann, U. 1980 Treatment of incompressibility and boundary
+  conditions in 3-d numerical spectral simulations of plane channel flows.
+\newblock In Hirschel, E.~H. (Editor), \emph{Proc. 3rd GAMM Conf. Numerical
+  Methods in Fluid Mechanics}, pages 165--173. Vieweg. Braunschweig.
+
+\bibitem[{Kreiss \emph{et~al.}(1994)Kreiss, Lundbladh \&
+  Henningson}]{Kreiss-Lundbladh-Henningson}
+Kreiss, G., Lundbladh, A. \& Henningson, D.~S. 1994 Bounds for threshold
+  amplitudes in subcritical shear flows.
+\newblock \emph{J. Fluid Mech.}, \textbf{270}, 175--198.
+
+\bibitem[{Levin \emph{et~al.}(2005{\natexlab{a}})Levin, Chernoray, L{\"o}fdahl
+  \& Henningson}]{Levin-Chernoray:2005}
+Levin, O., Chernoray, V., L{\"o}fdahl, L. \& Henningson, D.~S.
+  2005{\natexlab{a}} A study of the blasius wall jet.
+\newblock \emph{J. Fluid Mech.}, \textbf{539}, 313--347.
+
+\bibitem[{Levin \emph{et~al.}(2005{\natexlab{b}})Levin, Davidsson \&
+  Henningson}]{levin:114104}
+Levin, O., Davidsson, E.~N. \& Henningson, D.~S. 2005{\natexlab{b}} Transition
+  thresholds in the asymptotic suction boundary layer.
+\newblock \emph{Physics of Fluids}, \textbf{17}(11), 114104.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHF/17/114104/1}.
+
+\bibitem[{Levin \& Henningson(2007)}]{levin:2006b}
+Levin, O. \& Henningson, D.~S. 2007 Turbulent spots in the asymptotic suction
+  boundary layer.
+\newblock \emph{J. Fluid Mech.}, \textbf{584}, 397--413.
+
+\bibitem[{Levin \emph{et~al.}(2006)Levin, Herbst \&
+  Henningson}]{levin:herbst:henningson:2006}
+Levin, O., Herbst, A.~H. \& Henningson, D.~S. 2006 Early turbulent evolution of
+  the {B}lasius wall jet.
+\newblock \emph{J. Turbulence}, \textbf{7}(68), 1--17.
+
+\bibitem[{Lilly(1992)}]{lilly_1992}
+Lilly, D.~K. 1992 A proposed modification of the {G}ermano subgrid-scale
+  closure method.
+\newblock \emph{Phys. Fluids A}, \textbf{4}(3), 633--635.
+
+\bibitem[{Lu \& Henningson(1990)}]{Lu-Henningson}
+Lu, Q. \& Henningson, D.~S. 1990 Subcritical transition in plane {P}oiseuille
+  flow.
+\newblock \emph{Bull. Am. Phys. Soc.}, \textbf{35}, 2288.
+
+\bibitem[{Lundbladh(1993)}]{Lundbladh:mek}
+Lundbladh, A. 1993 Growth of a localized disturbance in inviscidly stable shear
+  flow.
+\newblock TRITA-MEK 1993:4, Royal Institute of Technology, Stockholm, Sweden.
+
+\bibitem[{Lundbladh \emph{et~al.}(1999)Lundbladh, Berlin, Skote, Hildings,
+  Choi, Kim \& Henningson}]{alundbladh:sberling:mskote:1999}
+Lundbladh, A., Berlin, S., Skote, M., Hildings, C., Choi, J., Kim, J. \&
+  Henningson, D.~S. 1999 An {E}fficient {S}pectral {M}ethod for {S}imulations
+  of {I}ncompressible {F}low over a {F}lat {P}late.
+\newblock Technical Report TRITA-MEK 1999:11, Department of Mechanics, Royal
+  Institute of Technology, KTH.
+
+\bibitem[{Lundbladh \& Henningson(1993)}]{Lundbladh-Henningson}
+Lundbladh, A. \& Henningson, D.~S. 1993 Numerical simulation of spatial
+  disturbance development in rotating channel flow.
+\newblock FFA-TN 1993-30, Aeronautical Research Institute of Sweden, Bromma.
+
+\bibitem[{Lundbladh \& Henningson(1995)}]{Lundbladh-Henningson:turb}
+Lundbladh, A. \& Henningson, D.~S. 1995 Evaluation of turbulence models from
+  direct numerical simulations of turbulent boundary layers.
+\newblock FFA-TN 1995-09, Aeronautical Research Institute of Sweden, Bromma.
+
+\bibitem[{Lundbladh \emph{et~al.}(1992{\natexlab{a}})Lundbladh, Henningson \&
+  Johansson}]{Lundbladh-Henningson-Johansson:FFA}
+Lundbladh, A., Henningson, D.~S. \& Johansson, A.~V. 1992{\natexlab{a}} An
+  efficient spectral integration method for the solution of the
+  {Navier--Stokes} equations.
+\newblock FFA-TN 1992-28, Aeronautical Research Institute of Sweden, Bromma.
+
+\bibitem[{Lundbladh \emph{et~al.}(1994{\natexlab{a}})Lundbladh, Henningson \&
+  Reddy}]{Lundbladh-Henningson-Reddy}
+Lundbladh, A., Henningson, D.~S. \& Reddy, S.~C. 1994{\natexlab{a}} Threshold
+  amplitudes for transition in channel flows.
+\newblock In Hussaini, M.~Y., Gatski, T.~B. \& Jackson, T.~L. (Editors),
+  \emph{Transition, Turbulence and Combustion, Volume I}, pages 309--318.
+  Kluwer, Dordrecht.
+
+\bibitem[{Lundbladh \& Johansson(1991)}]{Lundbladh-Johansson}
+Lundbladh, A. \& Johansson, A.~V. 1991 Direct simulation of turbulent spots in
+  plane {Couette} flow.
+\newblock \emph{J. Fluid Mech.}, \textbf{229}, 499--516.
+
+\bibitem[{Lundbladh \emph{et~al.}(1992{\natexlab{b}})Lundbladh, Johansson \&
+  Henningson}]{Lundbladh-Johansson-Henningson:BL}
+Lundbladh, A., Johansson, A.~V. \& Henningson, D.~S. 1992{\natexlab{b}}
+  Simulation of the breakdown of localized disturbances in boundary layers.
+\newblock Proceedings of the 4th European Turbulence Conference, Delft, The
+  Netherlands.
+
+\bibitem[{Lundbladh \emph{et~al.}(1994{\natexlab{b}})Lundbladh, Schmid, Berlin
+  \& Henningson}]{Lundbladh-Schmid-Berlin-Henningson}
+Lundbladh, A., Schmid, P.~J., Berlin, S. \& Henningson, D.~S.
+  1994{\natexlab{b}} Simulation of bypass transition in spatially evolving
+  flows.
+\newblock Proceedings of the AGARD Symposium on Application of Direct and Large
+  Eddy Simulation to Transition and Turbulence, AGARD-CP-551.
+
+\bibitem[{Malik \emph{et~al.}(1985)Malik, Zang \&
+  Hussaini}]{Malik-Zang-Hussaini}
+Malik, M.~R., Zang, T.~A. \& Hussaini, M.~Y. 1985 A spectral collocation method
+  for the {Navier--Stokes} equations.
+\newblock \emph{J. Comp. Phys.}, \textbf{61}, 64--88.
+
+\bibitem[{Moreau(1998)}]{moreau_1998}
+Moreau, R. 1998 \emph{Magnetohydrodynamics}.
+\newblock Kluwer.
+
+\bibitem[{{\noopsort{nordstrz}}Nordstr{\"o}m
+  \emph{et~al.}(1999){\noopsort{nordstrz}}Nordstr{\"o}m, Nordin \&
+  Henningson}]{Nordstrom-Nordin-Henningson}
+{\noopsort{nordstrz}}Nordstr{\"o}m, J., Nordin, N. \& Henningson, D.~S. 1999
+  The fringe region technique and the {F}ourier method used in the direct
+  numerical simulation of spatially evolving viscous flows.
+\newblock \emph{SIAM J. Sci. Comp.}, \textbf{20}(4), 1365--1393.
+
+\bibitem[{Reddy \emph{et~al.}(1998)Reddy, Schmid, Bagget \&
+  Henningson}]{Reddy-Schmid-Baggett-Henningson}
+Reddy, S.~C., Schmid, P.~J., Bagget, P. \& Henningson, D.~S. 1998 On stability
+  of streamwise streaks and transition thresholds in plane channel flows.
+\newblock \emph{J. Fluid Mech.}, \textbf{365}, 269--303.
+
+\bibitem[{Schlatter(2005)}]{schlatter_2005}
+Schlatter, P. 2005 \emph{Large-eddy simulation of transition and turbulence in
+  wall-bounded shear flow}.
+\newblock Ph.D. thesis, ETH Z{\"u}rich, Switzerland, Diss. ETH No. 16000.
+\newblock
+  \urlprefix\url{http://e-collection.ethbib.ethz.ch/cgi-bin/show.pl?type=diss&nr=16000}.
+
+\bibitem[{Schlatter \emph{et~al.}(2006)Schlatter, Brandt \&
+  Henningson}]{schlatter_brandt_henningson_abstract_2006}
+Schlatter, P., Brandt, L. \& Henningson, D.~S. 2006 Large-eddy simulation of
+  bypass transition.
+\newblock In \emph{6th European Fluid Mechanics Conference, Stockholm, Sweden}.
+
+\bibitem[{Schlatter \emph{et~al.}(2004)Schlatter, Stolz \&
+  Kleiser}]{schlatter_stolz_kleiser_2004}
+Schlatter, P., Stolz, S. \& Kleiser, L. 2004 {LES} of transitional flows using
+  the approximate deconvolution model.
+\newblock \emph{Int. J. Heat Fluid Flow}, \textbf{25}(3), 549--558.
+
+\bibitem[{Schlichting(1979)}]{schlichting:1979}
+Schlichting, H. 1979 \emph{Boundary-{L}ayer {T}heory}.
+\newblock Springer, seventh edition.
+
+\bibitem[{Schmid \& Henningson(1992)}]{Schmid-Henningson}
+Schmid, P.~J. \& Henningson, D.~S. 1992 A new mechanism for rapid transition
+  involving a pair of oblique waves.
+\newblock \emph{Phys. Fluids~A}, \textbf{4}, 1986--1989.
+
+\bibitem[{Schmid \& Henningson(1993)}]{Schmid-Henningson:nonlin}
+Schmid, P.~J. \& Henningson, D.~S. 1993 Nonlinear energy density transfer
+  during oblique transition in plane {P}oiseuille flow.
+\newblock Technical Report TRITA-MEK 1993:5, Royal Institute of Technology,
+  Stockholm.
+
+\bibitem[{Schmid \emph{et~al.}(1994)Schmid, Lundbladh \&
+  Henningson}]{Schmid-Lundbladh-Henningson}
+Schmid, P.~J., Lundbladh, A. \& Henningson, D.~S. 1994 Spatial evolution of
+  disturbances in plane {P}oiseuille flow.
+\newblock In Hussaini, M.~Y., Gatski, T.~B. \& Jackson, T.~L. (Editors),
+  \emph{Transition, Turbulence and Combustion, Volume I}, pages 287--297.
+  Kluwer, Dordrecht.
+
+\bibitem[{Schmid \emph{et~al.}(1996)Schmid, Reddy \&
+  Henningson}]{Schmid-Reddy-Henningson}
+Schmid, P.~J., Reddy, S.~C. \& Henningson, D.~S. 1996 Transition thresholds in
+  boundary layer and channel flow.
+\newblock In Gavrilakis, S., Machiels, L. \& Monkewitz, P.~A. (Editors),
+  \emph{Advances in Turbulence VI}, pages 381--384. Kluwer Academic Publishers.
+
+\bibitem[{Skote \emph{et~al.}(2002)Skote, Haritonidis \&
+  Henningson}]{skote:2309}
+Skote, M., Haritonidis, J.~H. \& Henningson, D.~S. 2002 Varicose instabilities
+  in turbulent boundary layers.
+\newblock \emph{Physics of Fluids}, \textbf{14}(7), 2309--2323.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHF/14/2309/1}.
+
+\bibitem[{Skote \emph{et~al.}(1998)Skote, Henkes \&
+  Henningson}]{Skote-Henkes-Henningson}
+Skote, M., Henkes, R. A. W.~M. \& Henningson, D.~S. 1998 Direct numerical
+  simulation of self-similar turbulent boundary layers in adverse pressure
+  gradients.
+\newblock \emph{Flow, Turbulence and Combustion}, \textbf{60}, 47--85.
+
+\bibitem[{Skote \& Henningson(2002)}]{Skote-Henningson:2002}
+Skote, M. \& Henningson, D.~S. 2002 Direct numerical simulation of a separated
+  turbulent boundary layer.
+\newblock \emph{J. Fluid Mech.}, \textbf{471}, 107--136.
+
+\bibitem[{Smagorinsky(1963)}]{smagorinsky_1963}
+Smagorinsky, J. 1963 General circulation experiments with the primitive
+  equations.
+\newblock \emph{Mon. Weath. Rev.}, \textbf{91}(3), 99--164.
+
+\bibitem[{Spalart \& Yang(1987)}]{Spalart-Yang}
+Spalart, P.~R. \& Yang, K. 1987 Numerical study of ribbon induced transition in
+  blasius flow.
+\newblock \emph{J. Fluid Mech.}, \textbf{178}, 345--365.
+
+\bibitem[{Stolz \emph{et~al.}(2001)Stolz, Adams \&
+  Kleiser}]{stolz_adams_kleiser_2001a}
+Stolz, S., Adams, N.~A. \& Kleiser, L. 2001 An approximate deconvolution model
+  for large-eddy simulation with application to incompressible wall-bounded
+  flows.
+\newblock \emph{Phys. Fluids}, \textbf{13}(4), 997--1015.
+
+\bibitem[{Stolz \emph{et~al.}(2005)Stolz, Schlatter \&
+  Kleiser}]{stolz_schlatter_kleiser_2005}
+Stolz, S., Schlatter, P. \& Kleiser, L. 2005 High-pass filtered eddy-viscosity
+  models for large-eddy simulations of transitional and turbulent flow.
+\newblock \emph{Phys. Fluids}, \textbf{17}, 065103.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHFLE6/17/065103/1}.
+
+\bibitem[{{\noopsort{zz}}{\AA}kervik
+  \emph{et~al.}(2006){\noopsort{zz}}{\AA}kervik, Brandt, Henningson,
+  H{\oe}pffner, Marxen \&
+  Schlatter}]{akervik_brandt_henningson_hoepffner_marxen_schlatter_2006}
+{\noopsort{zz}}{\AA}kervik, E., Brandt, L., Henningson, D.~S., H{\oe}pffner,
+  J., Marxen, O. \& Schlatter, P. 2006 Steady solutions of the
+  {N}avier--{S}tokes equations by selective frequency damping.
+\newblock \emph{Phys. Fluids}, \textbf{18}, 068102.
+\newblock \urlprefix\url{http://link.aip.org/link/?PHFLE6/18/068102/1}.
+
+\end{thebibliography}
