@@ -1,0 +1,116 @@
+\changetocdepth {2}
+\select@language {english}
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Contributions}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Release notes}{1}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Version 4.0.0}{1}{subsection.1.2.1}
+\contentsline {section}{\numberline {1.3}Published results}{2}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Channel and Couette flow studies}{2}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Boundary layer flow studies}{3}{subsection.1.3.2}
+\contentsline {chapter}{\chapternumberline {2}Installation}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Prerequisites}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Requirements}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Optional requirements}{5}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Directory structure}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}Building \textbf {{Simson}}}{5}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Configuring}{6}{subsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.1.1}\texttt {{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip --help\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep \leftmargin \leftmargini \parsep \parsepi \topsep \topsepi \itemsep \itemsepi }}}{6}{subsubsection.2.3.1.1}
+\contentsline {subsubsection}{\numberline {2.3.1.2}\texttt {{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip --config\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep \leftmargin \leftmargini \parsep \parsepi \topsep \topsepi \itemsep \itemsepi }}}{7}{subsubsection.2.3.1.2}
+\contentsline {subsubsection}{\numberline {2.3.1.3}\texttt {{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip --prefix\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep \leftmargin \leftmargini \parsep \parsepi \topsep \topsepi \itemsep \itemsepi }}}{7}{subsubsection.2.3.1.3}
+\contentsline {subsubsection}{\numberline {2.3.1.4}\texttt {{\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip --program-suffix\relax \fontsize {10}{12}\selectfont \abovedisplayskip 10\p@ plus2\p@ minus5\p@ \abovedisplayshortskip \z@ plus3\p@ \belowdisplayshortskip 6\p@ plus3\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep \leftmargin \leftmargini \parsep \parsepi \topsep \topsepi \itemsep \itemsepi }}}{7}{subsubsection.2.3.1.4}
+\contentsline {subsection}{\numberline {2.3.2}Compiling}{7}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Compiling for parallel runs}{8}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Installing}{9}{subsection.2.3.4}
+\contentsline {chapter}{\chapternumberline {3}Operation}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Preprocessing}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Generating initial velocity fields with \textbf {{fsc}} and \textbf {{bls}}}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Generating non-similarity base flows}{12}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Running \textbf {{bla}}}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Running in serial}{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Running in parallel with OpenMP}{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Running in parallel with MPI}{13}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Memory requirements}{13}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Performance tuning}{14}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Postprocessing}{14}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Postprocessing velocity files with \textbf {{rit}}}{14}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Postprocessing velocity files with \textbf {{cmp}}}{14}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Postprocessing plane files with \textbf {{rps}}}{14}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Postprocessing velocity files with \textbf {{fou}}}{14}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Postprocessing amplitude files with \textbf {{pamp1}}, \textbf {{pamp2}}, \textbf {{pampw}}, \textbf {{pampw2}} and \textbf {{pext1}}}{14}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Postprocessing $xy$-statistics files with \textbf {{pxyst}}}{15}{subsection.3.3.6}
+\contentsline {chapter}{\chapternumberline {4}Theory}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Derivation of the velocity--vorticity formulation}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Forcing}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Temporal simulations}{18}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Channel flow}{18}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Boundary-layer flow}{19}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}Spatial simulations}{19}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Boundary conditions}{21}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Poiseuille flow}{21}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Couette flow}{21}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Boundary layer flow}{21}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Asymptotic suction boundary layer flow}{22}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Surface roughness}{22}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Jet in crossflow}{23}{subsection.4.3.6}
+\contentsline {section}{\numberline {4.4}Initial conditions}{23}{section.4.4}
+\contentsline {section}{\numberline {4.5}Disturbance formulation and linearized solver}{24}{section.4.5}
+\contentsline {section}{\numberline {4.6}Pressure solver}{25}{section.4.6}
+\contentsline {section}{\numberline {4.7}Passive scalar}{26}{section.4.7}
+\contentsline {section}{\numberline {4.8}Selective frequency damping}{26}{section.4.8}
+\contentsline {section}{\numberline {4.9}Large-eddy simulation}{26}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Dynamic Smagorinsky model}{27}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}High-pass filtered Smagorinsky model}{27}{subsection.4.9.2}
+\contentsline {subsection}{\numberline {4.9.3}Relaxation-term model (ADM-RT)}{28}{subsection.4.9.3}
+\contentsline {section}{\numberline {4.10}Magneto-Hydrodynamics (MHD)}{28}{section.4.10}
+\contentsline {chapter}{\chapternumberline {5}Numerical method}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1}Temporal discretization}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2}Horizontal discretization -- Fourier expansions}{33}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Normal velocity and normal vorticity equations}{34}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Horizontal velocities and wavenumber zero}{34}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Solution procedure with boundary conditions}{35}{subsection.5.2.3}
+\contentsline {section}{\numberline {5.3}Normal discretization -- Chebyshev expansion}{37}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Chebyshev tau method -- CTM}{38}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Chebyshev integration method -- CIM}{39}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Integration correction}{40}{subsection.5.3.3}
+\contentsline {chapter}{\chapternumberline {6}Implementation}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}Program structure of \textbf {{bla}}}{43}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Step 1, Initialization}{43}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Step 2, Computations in physical space}{44}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}Step 3, Computations in Fourier--Chebyshev space}{45}{subsection.6.1.3}
+\contentsline {subsection}{\numberline {6.1.4}Step 4, Output}{45}{subsection.6.1.4}
+\contentsline {section}{\numberline {6.2}Data structure}{45}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Complex numbers and FFTs}{46}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Main storage, boxes, drawers, and planes}{46}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Naming conventions}{46}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}The oddball wavenumbers}{47}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Parallelization}{47}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}OpenMP}{47}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}MPI}{48}{subsection.6.3.2}
+\contentsline {chapter}{\chapternumberline {7}File formats}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}Compile time parameter file \textsf {\textbf {par.f}}}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Runtime parameter file \textsf {\textbf {fsc.i}}}{52}{section.7.2}
+\contentsline {section}{\numberline {7.3}Runtime parameter file \textsf {\textbf {bls.i}}}{52}{section.7.3}
+\contentsline {section}{\numberline {7.4}Runtime parameter file \textsf {\textbf {bla.i}}}{55}{section.7.4}
+\contentsline {section}{\numberline {7.5}Runtime LES parameter file \textsf {\textbf {sgs.i}}}{62}{section.7.5}
+\contentsline {section}{\numberline {7.6}Velocity file}{63}{section.7.6}
+\contentsline {section}{\numberline {7.7}Pressure file}{64}{section.7.7}
+\contentsline {section}{\numberline {7.8}Amplitude file}{64}{section.7.8}
+\contentsline {section}{\numberline {7.9}Wave amplitude file}{64}{section.7.9}
+\contentsline {section}{\numberline {7.10}Extremum file}{65}{section.7.10}
+\contentsline {section}{\numberline {7.11}Plane velocity file}{65}{section.7.11}
+\contentsline {section}{\numberline {7.12}$xy$-statistics file}{65}{section.7.12}
+\contentsline {section}{\numberline {7.13}Two-point correlation file}{67}{section.7.13}
+\contentsline {section}{\numberline {7.14}Time-series file}{67}{section.7.14}
+\contentsline {section}{\numberline {7.15}Free-stream velocity table file}{68}{section.7.15}
+\contentsline {section}{\numberline {7.16}Forced wave file \textsf {\textbf {wave.dat}}}{68}{section.7.16}
+\contentsline {section}{\numberline {7.17}Base flow profile file \textsf {\textbf {fsc.dat}}}{68}{section.7.17}
+\contentsline {section}{\numberline {7.18}Surface-roughness file}{68}{section.7.18}
+\contentsline {appendix}{\chapternumberline {A}Examples}{71}{appendix.A}
+\contentsline {section}{\numberline {A.1}Temporal channel and Blasius boundary layer flow}{71}{section.A.1}
+\contentsline {section}{\numberline {A.2}Temporal turbulent channel flow at $\mathit {Re}_{\tau }=180$}{71}{section.A.2}
+\contentsline {section}{\numberline {A.3}Temporal Couette flow with turbulent spots}{71}{section.A.3}
+\contentsline {section}{\numberline {A.4}Temporal Falkner--Skan--Cooke boundary layer flow}{72}{section.A.4}
+\contentsline {section}{\numberline {A.5}Asymptotic suction boundary layer flow}{72}{section.A.5}
+\contentsline {section}{\numberline {A.6}Spatial Blasius boundary layer flow}{72}{section.A.6}
+\contentsline {section}{\numberline {A.7}Spatial Falkner--Skan--Cooke boundary layer flow}{73}{section.A.7}
+\contentsline {appendix}{\chapternumberline {B}Scaling of variables}{75}{appendix.B}

@@ -1,0 +1,1965 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.4.20)  16 MAY 2018 19:27
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**simson-user-guide.tex
+(./simson-user-guide.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+(./simson.cls
+Document Class: simson 2007/05/31 v1.0 $Revision: 1269 $ Document class for Sim
+son user guides
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count79
+))
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 143.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
+File: latin1.def 2015/03/17 v1.2c Input encoding file
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/02/24 3.9q The Babel package
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-swedish/swedish.ldf
+Language: swedish 2005/03/31 v2.3d Swedish support from the babel system
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/02/24 3.9q Babel common definitions
+\babel@savecnt=\count80
+\U@D=\dimen104
+)
+Package babel Info: Making " an active character on input line 90.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2015/07/08 v3.7e configurable book, report, article docu
+ment class
+\onelineskip=\skip41
+\lxvchars=\skip42
+\xlvchars=\skip43
+\@memcnta=\count81
+\c@@memmarkcntra=\count82
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+Package: ifetex 2011/12/15 v1.2 ifetex
+
+(/usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex))
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+\stockheight=\skip44
+\stockwidth=\skip45
+\trimtop=\skip46
+\trimedge=\skip47
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem10.clo
+File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
+)
+\binding=\skip48
+\spinemargin=\skip49
+\foremargin=\skip50
+\uppermargin=\skip51
+\lowermargin=\skip52
+\headdrop=\skip53
+\normalrulethickness=\skip54
+\mem@maxheadheight=\skip55
+\mem@maxfootheight=\skip56
+\headwidth=\skip57
+\c@storedpagenumber=\count83
+\memPD=\dimen105
+\m@mabparskip=\skip58
+\thanksmarkwidth=\skip59
+\thanksmarksep=\skip60
+\droptitle=\skip61
+\c@book=\count84
+\c@part=\count85
+\c@chapter=\count86
+\c@section=\count87
+\c@subsection=\count88
+\c@subsubsection=\count89
+\c@paragraph=\count90
+\c@subparagraph=\count91
+\beforechapskip=\skip62
+\midchapskip=\skip63
+\afterchapskip=\skip64
+\chapindent=\skip65
+\bottomsectionskip=\skip66
+\secindent=\skip67
+\beforesecskip=\skip68
+\aftersecskip=\skip69
+\subsecindent=\skip70
+\beforesubsecskip=\skip71
+\aftersubsecskip=\skip72
+\subsubsecindent=\skip73
+\beforesubsubsecskip=\skip74
+\aftersubsubsecskip=\skip75
+\paraindent=\skip76
+\beforeparaskip=\skip77
+\afterparaskip=\skip78
+\subparaindent=\skip79
+\beforesubparaskip=\skip80
+\aftersubparaskip=\skip81
+\pfbreakskip=\skip82
+\c@@ppsavesec=\count92
+\c@@ppsaveapp=\count93
+\ragrparindent=\dimen106
+\everylistparindent=\dimen107
+\parsepi=\skip83
+\topsepi=\skip84
+\itemsepi=\skip85
+\parsepii=\skip86
+\topsepii=\skip87
+\topsepiii=\skip88
+\itemsepii=\skip89
+\itemsepiii=\skip90
+\partopsepii=\skip91
+\partopsepiii=\skip92
+\m@msavetopsep=\skip93
+\m@msavepartopsep=\skip94
+\@enLab=\toks17
+\abstitleskip=\skip95
+\absleftindent=\skip96
+\abs@leftindent=\dimen108
+\absrightindent=\skip97
+\absparindent=\skip98
+\absparsep=\skip99
+\c@vslineno=\count94
+\c@poemline=\count95
+\c@modulo@vs=\count96
+\c@memfvsline=\count97
+\vleftskip=\skip100
+\vrightskip=\skip101
+\stanzaskip=\skip102
+\versewidth=\skip103
+\vgap=\skip104
+\vindent=\skip105
+\vleftmargin=\dimen109
+\c@verse=\count98
+\c@chrsinstr=\count99
+\beforepoemtitleskip=\skip106
+\afterpoemtitleskip=\skip107
+\c@poem=\count100
+\beforePoemTitleskip=\skip108
+\midPoemTitleskip=\skip109
+\afterPoemTitleskip=\skip110
+\col@sep=\dimen110
+\extrarowheight=\dimen111
+\NC@list=\toks18
+\extratabsurround=\skip111
+\backup@length=\skip112
+\TX@col@width=\dimen112
+\TX@old@table=\dimen113
+\TX@old@col=\dimen114
+\TX@target=\dimen115
+\TX@delta=\dimen116
+\TX@cols=\count101
+\TX@ftn=\toks19
+\heavyrulewidth=\dimen117
+\lightrulewidth=\dimen118
+\cmidrulewidth=\dimen119
+\belowrulesep=\dimen120
+\belowbottomsep=\dimen121
+\aboverulesep=\dimen122
+\abovetopsep=\dimen123
+\cmidrulesep=\dimen124
+\cmidrulekern=\dimen125
+\defaultaddspace=\dimen126
+\@cmidla=\count102
+\@cmidlb=\count103
+\@aboverulesep=\dimen127
+\@belowrulesep=\dimen128
+\@thisruleclass=\count104
+\@lastruleclass=\count105
+\@thisrulewidth=\dimen129
+\ctableftskip=\skip113
+\ctabrightskip=\skip114
+\abovecolumnspenalty=\count106
+\@linestogo=\count107
+\@cellstogo=\count108
+\@cellsincolumn=\count109
+\crtok=\toks20
+\@mincolumnwidth=\dimen130
+\c@newflo@tctr=\count110
+\mem@margin@floatbox=\box26
+\@contcwidth=\skip115
+\@contindw=\skip116
+\abovecaptionskip=\skip117
+\belowcaptionskip=\skip118
+\subfloattopskip=\skip119
+\subfloatcapskip=\skip120
+\subfloatcaptopadj=\skip121
+\subfloatbottomskip=\skip122
+\subfloatlabelskip=\skip123
+\subfloatcapmargin=\dimen131
+\c@@contsubnum=\count111
+\m@mscap@capbox=\box27
+\m@mscap@fbox=\box28
+\sidecapsep=\dimen132
+\sidecapwidth=\dimen133
+\m@m@tempdima=\dimen134
+\m@mscapraise=\dimen135
+\sidecapraise=\dimen136
+\m@mscapmainwidth=\dimen137
+\m@mscaplkern=\dimen138
+\beforeepigraphskip=\skip124
+\afterepigraphskip=\skip125
+\epigraphwidth=\skip126
+\epigraphrule=\skip127
+LaTeX Info: Redefining \em on input line 7535.
+LaTeX Info: Redefining \emph on input line 7543.
+\tocentryskip=\skip128
+\tocbaseline=\skip129
+\cftparskip=\skip130
+\cftbeforebookskip=\skip131
+\cftbookindent=\dimen139
+\cftbooknumwidth=\dimen140
+\cftbeforepartskip=\skip132
+\cftpartindent=\skip133
+\cftpartnumwidth=\skip134
+\cftbeforechapterskip=\skip135
+\cftchapterindent=\skip136
+\cftchapternumwidth=\skip137
+\cftbeforesectionskip=\skip138
+\cftsectionindent=\skip139
+\cftsectionnumwidth=\skip140
+\cftbeforesubsectionskip=\skip141
+\cftsubsectionindent=\skip142
+\cftsubsectionnumwidth=\skip143
+\cftbeforesubsubsectionskip=\skip144
+\cftsubsubsectionindent=\skip145
+\cftsubsubsectionnumwidth=\skip146
+\cftbeforeparagraphskip=\skip147
+\cftparagraphindent=\skip148
+\cftparagraphnumwidth=\skip149
+\cftbeforesubparagraphskip=\skip150
+\cftsubparagraphindent=\skip151
+\cftsubparagraphnumwidth=\skip152
+\prechapterprecisshift=\dimen141
+\c@maxsecnumdepth=\count112
+\bibindent=\dimen142
+\bibitemsep=\skip153
+\indexcolsep=\skip154
+\indexrule=\skip155
+\indexmarkstyle=\toks21
+\@indexbox=\insert199
+\glossarycolsep=\dimen143
+\glossaryrule=\dimen144
+\sideparvshift=\skip156
+\sideins=\insert198
+\sidebartopsep=\skip157
+\sidebarhsep=\skip158
+\sidebarvsep=\skip159
+\sidebarwidth=\skip160
+\footmarkwidth=\skip161
+\footmarksep=\skip162
+\footparindent=\skip163
+\footinsdim=\skip164
+\footinsv@r=\insert197
+\@mpfootinsv@r=\insert196
+\m@m@k=\count113
+\m@m@h=\dimen145
+\m@mipn@skip=\skip165
+\sidefootins=\insert195
+\sidefootadjust=\skip166
+\sidefootheight=\skip167
+\sidefoothsep=\skip168
+\sidefootvsep=\skip169
+\sidefootwidth=\skip170
+\m@mdownsf=\skip171
+\c@sidefootnote=\count114
+\sidefootmarkwidth=\skip172
+\sidefootmarksep=\skip173
+\sidefootparindent=\skip174
+\c@pagenote=\count115
+\c@pagenoteshadow=\count116
+\mem@pn@lastkern=\skip175
+\every@verbatim=\toks22
+\afterevery@verbatim=\toks23
+\verbatim@line=\toks24
+\tab@position=\count117
+\verbatim@in@stream=\read1
+\verbatimindent=\skip176
+\verbatim@out=\write3
+\bvboxsep=\skip177
+\c@memfbvline=\count118
+\c@bvlinectr=\count119
+\bvnumlength=\skip178
+\fb@frw=\dimen146
+\fb@frh=\dimen147
+\FrameRule=\dimen148
+\FrameSep=\dimen149
+\c@cp@cntr=\count120
+LaTeX Info: Redefining \: on input line 12052.
+LaTeX Info: Redefining \! on input line 12054.
+\c@ism@mctr=\count121
+\c@xsm@mctr=\count122
+\c@csm@mctr=\count123
+\c@ksm@mctr=\count124
+\c@xksm@mctr=\count125
+\c@cksm@mctr=\count126
+\c@msm@mctr=\count127
+\c@xmsm@mctr=\count128
+\c@cmsm@mctr=\count129
+\c@bsm@mctr=\count130
+\c@workm@mctr=\count131
+\c@sheetsequence=\count132
+\c@lastsheet=\count133
+\c@lastpage=\count134
+\c@figure=\count135
+\c@lofdepth=\count136
+\cftbeforefigureskip=\skip179
+\cftfigureindent=\skip180
+\cftfigurenumwidth=\skip181
+\c@table=\count137
+\c@lotdepth=\count138
+\cftbeforetableskip=\skip182
+\cfttableindent=\skip183
+\cfttablenumwidth=\skip184
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package array [2008/09/09] emulated by memoir.
+Package booktabs [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package dcolumn [2008/07/23] emulated by memoir.
+Package delarray [2008/07/23] emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package mparhack [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package tabularx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mempatch.sty
+Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
+))
+Package color Info: Redefining color green on input line 339.
+Package color Info: Redefining color red on input line 340.
+Package color Info: Redefining color black on input line 345.
+Package color Info: Redefining color white on input line 346.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip185
+\bibsep=\skip186
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count139
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip187
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen150
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen151
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count140
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count141
+\leftroot@=\count142
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count143
+\DOTSCASE@=\count144
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen152
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
+\dotsspace@=\muskip10
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks26
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks27
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks28
+\multlinegap=\skip188
+\multlinetaggap=\skip189
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen159
+\Hy@linkcounter=\count152
+\Hy@pagecounter=\count153
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count154
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4319.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4319.
+
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count155
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen160
+\Fld@menulength=\count156
+\Field@Width=\dimen161
+\Fld@charsize=\dimen162
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring ON on input line 6313.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count157
+\c@Item=\count158
+\c@Hfootnote=\count159
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count160
+\c@Hpagenote=\count161
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count162
+\c@bookmark@seq@number=\count163
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip190
+)
+(./symbollines.tex
+\ndots=\count164
+)
+No file simson-user-guide.aux.
+\openout1 = `simson-user-guide.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count165
+\scratchdimen=\dimen163
+\scratchbox=\box31
+\nofMPsegments=\count166
+\nofMParguments=\count167
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count168
+\MPscratchDim=\dimen164
+\MPnumerator=\count169
+\makeMPintoPDFobject=\count170
+\everyMPtoPDFconversion=\toks31
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 658pt by 341pt
+Spine and edge margins: 98.0072pt and 158.50067pt
+Upper and lower margins: 95.07066pt and 91.97618pt
+Headheight and headsep: 12pt and 18.06749pt
+Footskip: 25.29494pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 14.22636pt and 130.04794pt
+Sidecapsep and sidecapwidth: 7pt and 117pt
+Sidebarhsep and sidebarwidth: 7pt and 117pt
+Sidebarvsep and sidebartopsep: 12pt and 0pt
+Sidebarheight: 596.39996pt
+Sidefoothsep and sidefootwidth: 7pt and 117pt
+Sidefootvsep and sidefootheight: 12pt and 596.39996pt
+******************************************************
+
+\numberheight=\skip191
+\barlength=\skip192
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring ON on input line 37.
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count171
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+\@outlinefile=\write4
+\openout4 = `simson-user-guide.out'.
+
+\descriptionfrontbox=\box33
+<figures/KTH_eng_CMYK.pdf, id=4, 370.38374pt x 468.75125pt>
+File: figures/KTH_eng_CMYK.pdf Graphic file (type pdf)
+
+<use figures/KTH_eng_CMYK.pdf>
+Package pdftex.def Info: figures/KTH_eng_CMYK.pdf used on input line 40.
+(pdftex.def)             Requested size: 85.35826pt x 108.02509pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 40.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<figures/freestream_front.pdf, id=5, 541.02126pt x 406.51875pt>
+File: figures/freestream_front.pdf Graphic file (type pdf)
+
+<use figures/freestream_front.pdf>
+Package pdftex.def Info: figures/freestream_front.pdf used on input line 40.
+(pdftex.def)             Requested size: 597.50787pt x 448.97705pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/KTH_eng_CMYK.pdf
+> <./figures/freestream_front.pdf>]
+[2
+
+]
+\descriptioninnerbox=\box34
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 
+      [1
+
+]
+\descriptioninnerbackbox=\box35
+
+
+Package natbib Warning: Citation `Brandt-Schlatter-Henningson:2004' on page ii 
+undefined on input line 40.
+
+
+Package natbib Warning: Citation `schlatter_brandt_henningson_abstract_2006' on
+ page ii undefined on input line 40.
+
+
+Package natbib Warning: Citation `schlatter_stolz_kleiser_2004' on page ii unde
+fined on input line 40.
+
+
+Package natbib Warning: Citation `jeong_hussain_1995' on page ii undefined on i
+nput line 40.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.40 
+      [2
+
+] [3
+
+] [4
+
+]
+
+Package natbib Warning: Citation `Lundbladh-Henningson-Johansson:FFA' on page 1
+ undefined on input line 56.
+
+
+Package natbib Warning: Citation `alundbladh:sberling:mskote:1999' on page 1 un
+defined on input line 60.
+
+
+Package natbib Warning: Citation `Bertolotti-Herbert-Spalart' on page 1 undefin
+ed on input line 64.
+
+
+Package natbib Warning: Citation `Kim-Moin-Moser' on page 1 undefined on input 
+line 80.
+
+
+Package natbib Warning: Citation `Canuto-etal' on page 1 undefined on input lin
+e 82.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 108.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 108.
+ [1]
+
+Package natbib Warning: Citation `ccossu:mchevalier:dhenningson:2007' on page 2
+ undefined on input line 148.
+
+
+Package natbib Warning: Citation `mchevalier:2004' on page 2 undefined on input
+ line 149.
+
+
+Package natbib Warning: Citation `jhoepffner:mchevalier:2003' on page 2 undefin
+ed on input line 152.
+
+
+Package natbib Warning: Citation `mhogberg:dhenningson:mberggren:2000' on page 
+2 undefined on input line 155.
+
+
+Package natbib Warning: Citation `Reddy-Schmid-Baggett-Henningson' on page 2 un
+defined on input line 158.
+
+
+Package natbib Warning: Citation `Henningson:Siena' on page 2 undefined on inpu
+t line 161.
+
+
+Package natbib Warning: Citation `Elofsson-Lundbladh' on page 2 undefined on in
+put line 164.
+
+
+Package natbib Warning: Citation `Kreiss-Lundbladh-Henningson' on page 2 undefi
+ned on input line 166.
+
+
+Package natbib Warning: Citation `Lundbladh-Henningson-Reddy' on page 2 undefin
+ed on input line 168.
+
+
+Package natbib Warning: Citation `Schmid-Lundbladh-Henningson' on page 2 undefi
+ned on input line 170.
+
+
+Package natbib Warning: Citation `Lundbladh:mek' on page 2 undefined on input l
+ine 173.
+
+
+Package natbib Warning: Citation `Henningson-Lundbladh-Johansson:local' on page
+ 2 undefined on input line 175.
+
+
+Package natbib Warning: Citation `Lundbladh-Henningson' on page 2 undefined on 
+input line 177.
+
+
+Package natbib Warning: Citation `Schmid-Henningson:nonlin' on page 2 undefined
+ on input line 179.
+
+
+Package natbib Warning: Citation `Schmid-Henningson' on page 2 undefined on inp
+ut line 182.
+
+
+Package natbib Warning: Citation `Lundbladh-Johansson' on page 2 undefined on i
+nput line 185.
+
+
+Package natbib Warning: Citation `Henningson-Johansson-Lundbladh' on page 2 und
+efined on input line 188.
+
+
+Package natbib Warning: Citation `Lu-Henningson' on page 2 undefined on input l
+ine 190.
+
+
+Package natbib Warning: Citation `chevalier:hoepffner:akervik:henningson:2007' 
+on page 2 undefined on input line 201.
+
+
+Package natbib Warning: Citation `levin:2006b' on page 2 undefined on input lin
+e 203.
+
+
+Package natbib Warning: Citation `schlatter_brandt_henningson_abstract_2006' on
+ page 2 undefined on input line 206.
+
+
+Package natbib Warning: Citation `levin:herbst:henningson:2006' on page 2 undef
+ined on input line 208.
+
+
+Package natbib Warning: Citation `herbst:henningson:2005' on page 2 undefined o
+n input line 210.
+
+
+Package natbib Warning: Citation `levin:114104' on page 2 undefined on input li
+ne 213.
+
+[2]
+
+Package natbib Warning: Citation `Levin-Chernoray:2005' on page 3 undefined on 
+input line 214.
+
+
+Package natbib Warning: Citation `Brandt-Schlatter-Henningson:2004' on page 3 u
+ndefined on input line 217.
+
+
+Package natbib Warning: Citation `mhogberg:mchevalier:dhenningson:2003' on page
+ 3 undefined on input line 221.
+
+
+Package natbib Warning: Citation `Brandt-Cossu-Chomaz:2003' on page 3 undefined
+ on input line 223.
+
+
+Package natbib Warning: Citation `skote:2309' on page 3 undefined on input line
+ 226.
+
+
+Package natbib Warning: Citation `Brandt-Henningson:2002' on page 3 undefined o
+n input line 228.
+
+
+Package natbib Warning: Citation `Skote-Henningson:2002' on page 3 undefined on
+ input line 230.
+
+
+Package natbib Warning: Citation `mhogberg:dhenningson' on page 3 undefined on 
+input line 232.
+
+
+Package natbib Warning: Citation `mchevalier:mhogberg:2002' on page 3 undefined
+ on input line 234.
+
+
+Package natbib Warning: Citation `mhogberg:mchevalier:2001' on page 3 undefined
+ on input line 237.
+
+
+Package natbib Warning: Citation `Berlin-Henningson:1998' on page 3 undefined o
+n input line 240.
+
+
+Package natbib Warning: Citation `Berlin-Wiegel-Henningson' on page 3 undefined
+ on input line 242.
+
+
+Package natbib Warning: Citation `Nordstrom-Nordin-Henningson' on page 3 undefi
+ned on input line 245.
+
+
+Package natbib Warning: Citation `Hogberg-Henningson:98' on page 3 undefined on
+ input line 249.
+
+
+Package natbib Warning: Citation `Bech-Henningson-Henkes' on page 3 undefined o
+n input line 252.
+
+
+Package natbib Warning: Citation `Berlin-Kim-Henningson' on page 3 undefined on
+ input line 254.
+
+
+Package natbib Warning: Citation `Skote-Henkes-Henningson' on page 3 undefined 
+on input line 256.
+
+
+Package natbib Warning: Citation `Hildings' on page 3 undefined on input line 2
+59.
+
+
+Package natbib Warning: Citation `Schmid-Reddy-Henningson' on page 3 undefined 
+on input line 262.
+
+
+Package natbib Warning: Citation `Lundbladh-Henningson:turb' on page 3 undefine
+d on input line 266.
+
+
+Package natbib Warning: Citation `Lundbladh-Schmid-Berlin-Henningson' on page 3
+ undefined on input line 269.
+
+
+Package natbib Warning: Citation `Henningson-Lundbladh:crossflow' on page 3 und
+efined on input line 271.
+
+
+Package natbib Warning: Citation `Berlin-Lundbladh-Henningson' on page 3 undefi
+ned on input line 273.
+
+
+Package natbib Warning: Citation `Henningson-Lundbladh-Johansson:local' on page
+ 3 undefined on input line 276.
+
+
+Package natbib Warning: Citation `Lundbladh-Johansson-Henningson:BL' on page 3 
+undefined on input line 279.
+
+[3] [4
+
+]
+
+LaTeX Warning: Reference `tab:files' on page 5 undefined on input line 337.
+
+
+LaTeX Warning: Reference `tab:directories' on page 5 undefined on input line 33
+7.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5] [6]
+
+LaTeX Warning: Reference `sec:parfile' on page 7 undefined on input line 501.
+
+[7]
+Overfull \hbox (4.75256pt too wide) in paragraph at lines 560--563
+\OT1/cmr/m/n/9 After the ap-pro-pri-ate changes in \OT1/cmss/bx/n/9 par.f \OT1/
+cmr/m/n/9 (\OT1/cmr/m/it/9 i.e. \OT1/cmr/m/n/9 set-ting the vari-ables \OT1/cmr
+/bx/n/9 nproc \OT1/cmr/m/n/9 and/or \OT1/cmr/bx/n/9 nthread
+ []
+
+[8]
+
+LaTeX Warning: Reference `sec:examples' on page 9 undefined on input line 606.
+
+[9] [10
+
+]
+
+Package natbib Warning: Citation `jeong_hussain_1995' on page 11 undefined on i
+nput line 648.
+
+
+LaTeX Warning: Reference `sec:examples' on page 11 undefined on input line 671.
+
+
+
+LaTeX Warning: Reference `sec:velfile' on page 11 undefined on input line 683.
+
+[11]
+
+LaTeX Warning: Reference `sec:fsc' on page 12 undefined on input line 702.
+
+
+LaTeX Warning: Reference `sec:blsfile' on page 12 undefined on input line 709.
+
+
+LaTeX Warning: Reference `sec:blafile' on page 12 undefined on input line 725.
+
+
+LaTeX Warning: Reference `sec:frefile' on page 12 undefined on input line 725.
+
+
+LaTeX Warning: Reference `sec:parfile' on page 12 undefined on input line 737.
+
+
+LaTeX Warning: Reference `sec:blafile' on page 12 undefined on input line 738.
+
+
+LaTeX Warning: Reference `tab:sim:files' on page 12 undefined on input line 746
+.
+
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 773.
+
+
+
+LaTeX Warning: Reference `sec:preprocessing' on page 12 undefined on input line
+ 794.
+
+
+LaTeX Warning: Reference `sec:blafile' on page 12 undefined on input line 795.
+
+
+LaTeX Warning: Reference `sec:comp' on page 12 undefined on input line 799.
+
+
+LaTeX Warning: Reference `sec:comppar' on page 12 undefined on input line 813.
+
+[12]
+
+LaTeX Warning: Reference `sec:comppar' on page 13 undefined on input line 833.
+
+[13] [14]
+
+LaTeX Warning: Reference `sec:xysfile' on page 15 undefined on input line 971.
+
+[15] [16
+
+]
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 997.
+
+
+LaTeX Warning: Reference `sec:tempfor' on page 17 undefined on input line 1021.
+
+
+
+LaTeX Warning: Reference `sec:spatfor' on page 17 undefined on input line 1021.
+
+
+
+LaTeX Warning: Reference `eq:co' on page 17 undefined on input line 1064.
+
+
+LaTeX Warning: Reference `eq:pr' on page 17 undefined on input line 1064.
+
+[17]
+
+LaTeX Warning: Reference `eq:reynolds_channel' on page 18 undefined on input li
+ne 1135.
+
+[18]
+
+Package natbib Warning: Citation `Spalart-Yang' on page 19 undefined on input l
+ine 1164.
+
+
+Package natbib Warning: Citation `Bertolotti-Herbert-Spalart' on page 19 undefi
+ned on input line 1208.
+
+
+LaTeX Warning: Reference `eq:step-function' on page 19 undefined on input line 
+1233.
+
+[19]
+
+LaTeX Warning: Reference `fig:frbi' on page 20 undefined on input line 1269.
+
+<./figures/frbi.pdf, id=259, 453.49013pt x 153.7178pt>
+File: ./figures/frbi.pdf Graphic file (type pdf)
+
+<use ./figures/frbi.pdf>
+Package pdftex.def Info: ./figures/frbi.pdf used on input line 1273.
+(pdftex.def)             Requested size: 221.64792pt x 75.13004pt.
+
+
+Package natbib Warning: Citation `alundbladh:sberling:mskote:1999' on page 20 u
+ndefined on input line 1301.
+
+
+Package natbib Warning: Citation `Nordstrom-Nordin-Henningson' on page 20 undef
+ined on input line 1324.
+
+[20 <./figures/frbi.pdf>]
+
+LaTeX Warning: Reference `eq:ph' on page 21 undefined on input line 1371.
+
+
+LaTeX Warning: Reference `eq:om' on page 21 undefined on input line 1371.
+
+[21]
+
+Package natbib Warning: Citation `Malik-Zang-Hussaini' on page 22 undefined on 
+input line 1413.
+
+
+LaTeX Warning: Reference `eq:fout' on page 22 undefined on input line 1423.
+
+
+LaTeX Warning: Reference `eq:hdef' on page 22 undefined on input line 1448.
+
+
+Package natbib Warning: Citation `levin:114104' on page 22 undefined on input l
+ine 1455.
+
+
+Package natbib Warning: Citation `Choudhari-Streett' on page 22 undefined on in
+put line 1470.
+
+
+Package natbib Warning: Citation `Crouch:loc_recept' on page 22 undefined on in
+put line 1471.
+
+
+LaTeX Warning: Reference `eq:step-function' on page 22 undefined on input line 
+1484.
+
+
+LaTeX Warning: Reference `eq:roughn-proj' on page 22 undefined on input line 14
+85.
+
+
+LaTeX Warning: Reference `eq:roughn-proj' on page 22 undefined on input line 14
+89.
+
+[22]
+
+Package natbib Warning: Citation `schlichting:1979' on page 23 undefined on inp
+ut line 1568.
+
+
+Package natbib Warning: Citation `jcooke:1950' on page 23 undefined on input li
+ne 1568.
+
+[23]
+
+LaTeX Warning: Reference `eq:vel:prof:a' on page 24 undefined on input line 157
+8.
+
+
+LaTeX Warning: Reference `eq:vel:prof:b' on page 24 undefined on input line 157
+8.
+
+
+LaTeX Warning: Reference `eq:ns' on page 24 undefined on input line 1632.
+
+
+LaTeX Warning: Reference `eq:ns' on page 24 undefined on input line 1653.
+
+[24]
+
+LaTeX Warning: Reference `eq:fringeforce' on page 25 undefined on input line 16
+64.
+
+
+LaTeX Warning: Reference `eq:nsdist' on page 25 undefined on input line 1672.
+
+
+LaTeX Warning: Reference `eq:vv' on page 25 undefined on input line 1680.
+
+
+LaTeX Warning: Reference `eq:om' on page 25 undefined on input line 1680.
+
+
+LaTeX Warning: Reference `eq:pr' on page 25 undefined on input line 1687.
+
+
+LaTeX Warning: Reference `eq:hdef' on page 25 undefined on input line 1692.
+
+
+LaTeX Warning: Reference `sec:spatfor' on page 25 undefined on input line 1727.
+
+
+
+LaTeX Warning: Reference `eq:bc13' on page 25 undefined on input line 1729.
+
+
+LaTeX Warning: Reference `eq:bc10' on page 25 undefined on input line 1730.
+
+
+LaTeX Warning: Reference `eq:po22' on page 25 undefined on input line 1737.
+
+
+LaTeX Warning: Reference `eq:pr' on page 25 undefined on input line 1745.
+
+
+LaTeX Warning: Reference `eq:po2' on page 25 undefined on input line 1754.
+
+
+LaTeX Warning: Reference `eq:po22' on page 25 undefined on input line 1764.
+
+[25]
+
+LaTeX Warning: Reference `sec:linearized:solver' on page 26 undefined on input 
+line 1773.
+
+
+LaTeX Warning: Reference `eq:theta' on page 26 undefined on input line 1787.
+
+
+LaTeX Warning: Reference `chap:numerics' on page 26 undefined on input line 178
+9.
+
+
+Package natbib Warning: Citation `akervik_brandt_henningson_hoepffner_marxen_sc
+hlatter_2006' on page 26 undefined on input line 1803.
+
+
+LaTeX Warning: Reference `eq:sfdforc' on page 26 undefined on input line 1818.
+
+
+LaTeX Warning: Reference `eq:ns' on page 26 undefined on input line 1819.
+
+
+LaTeX Warning: Reference `eq:sfdev' on page 26 undefined on input line 1820.
+
+[26]
+
+Package natbib Warning: Citation `smagorinsky_1963' on page 27 undefined on inp
+ut line 1874.
+
+
+Package natbib Warning: Citation `germano_piomelli_moin_cabot_1991' on page 27 
+undefined on input line 1882.
+
+
+Package natbib Warning: Citation `lilly_1992' on page 27 undefined on input lin
+e 1882.
+
+
+Package natbib Warning: Citation `stolz_schlatter_kleiser_2005' on page 27 unde
+fined on input line 1905.
+
+
+LaTeX Warning: Reference `eq:hpf_ev' on page 27 undefined on input line 1924.
+
+[27]
+
+LaTeX Warning: Reference `eq:hpf_ev' on page 28 undefined on input line 1927.
+
+
+LaTeX Warning: Reference `eq:hpf_smag' on page 28 undefined on input line 1928.
+
+
+
+Package natbib Warning: Citation `bruhn_2006' on page 28 undefined on input lin
+e 1928.
+
+
+Package natbib Warning: Citation `germano_piomelli_moin_cabot_1991' on page 28 
+undefined on input line 1930.
+
+
+Package natbib Warning: Citation `stolz_adams_kleiser_2001a' on page 28 undefin
+ed on input line 1934.
+
+
+Package natbib Warning: Citation `stolz_adams_kleiser_2001a' on page 28 undefin
+ed on input line 1954.
+
+
+Package natbib Warning: Citation `schlatter_2005' on page 28 undefined on input
+ line 1955.
+
+
+Package natbib Warning: Citation `schlatter_stolz_kleiser_2004' on page 28 unde
+fined on input line 1958.
+
+
+Package natbib Warning: Citation `schlatter_2005' on page 28 undefined on input
+ line 1965.
+
+
+Package natbib Warning: Citation `schlatter_stolz_kleiser_2004' on page 28 unde
+fined on input line 1980.
+
+
+Package natbib Warning: Citation `schlatter_2005' on page 28 undefined on input
+ line 1980.
+
+
+Package natbib Warning: Citation `bruhn_2006' on page 28 undefined on input lin
+e 1988.
+
+
+Package natbib Warning: Citation `moreau_1998' on page 28 undefined on input li
+ne 1995.
+
+[28]
+
+LaTeX Warning: Reference `maglrm' on page 29 undefined on input line 2026.
+
+
+LaTeX Warning: Reference `currohms' on page 29 undefined on input line 2028.
+
+
+LaTeX Warning: Reference `momlrm' on page 29 undefined on input line 2040.
+
+
+LaTeX Warning: Reference `maglrm' on page 29 undefined on input line 2040.
+
+[29] [30
+
+]
+
+LaTeX Warning: Reference `eq:ph' on page 31 undefined on input line 2141.
+
+
+LaTeX Warning: Reference `eq:om' on page 31 undefined on input line 2141.
+
+
+LaTeX Warning: Reference `table1' on page 31 undefined on input line 2159.
+
+
+LaTeX Warning: Reference `table1' on page 31 undefined on input line 2163.
+
+
+LaTeX Warning: Reference `eq:psi' on page 31 undefined on input line 2192.
+
+[31]
+
+LaTeX Warning: Reference `eq:burger2d' on page 32 undefined on input line 2208.
+
+
+
+LaTeX Warning: Reference `eq:ns' on page 32 undefined on input line 2209.
+
+
+LaTeX Warning: Reference `eq:bur2' on page 32 undefined on input line 2265.
+
+<./figures/rk3cn.pdf, id=388, 317.185pt x 328.72812pt>
+File: ./figures/rk3cn.pdf Graphic file (type pdf)
+
+<use ./figures/rk3cn.pdf>
+Package pdftex.def Info: ./figures/rk3cn.pdf used on input line 2280.
+(pdftex.def)             Requested size: 153.44896pt x 159.03668pt.
+
+
+LaTeX Warning: Reference `fig:sta' on page 32 undefined on input line 2294.
+
+[32]
+
+LaTeX Warning: Reference `eq:ab2' on page 33 undefined on input line 2302.
+
+
+LaTeX Warning: Reference `eq:ph' on page 33 undefined on input line 2303.
+
+
+LaTeX Warning: Reference `eq:om' on page 33 undefined on input line 2303.
+
+
+LaTeX Warning: Reference `eq:tph' on page 33 undefined on input line 2348.
+
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [33 <./figures/rk3cn.pdf>]
+
+LaTeX Warning: Reference `eq:tom' on page 34 undefined on input line 2362.
+
+
+LaTeX Warning: Reference `eq:co' on page 34 undefined on input line 2397.
+
+
+LaTeX Warning: Reference `eq:ns' on page 34 undefined on input line 2420.
+
+[34]
+
+LaTeX Warning: Reference `eq:phom' on page 35 undefined on input line 2455.
+
+
+LaTeX Warning: Reference `phi-hom' on page 35 undefined on input line 2511.
+
+
+LaTeX Warning: Reference `eq:sftomh' on page 35 undefined on input line 2512.
+
+[35]
+
+LaTeX Warning: Reference `eq:fu' on page 36 undefined on input line 2564.
+
+
+LaTeX Warning: Reference `eq:fw' on page 36 undefined on input line 2564.
+
+
+LaTeX Warning: Reference `eq:vlc' on page 36 undefined on input line 2581.
+
+
+LaTeX Warning: Reference `eq:uwlc' on page 36 undefined on input line 2581.
+
+
+LaTeX Warning: Reference `eq:opbc' on page 36 undefined on input line 2582.
+
+[36]
+
+LaTeX Warning: Reference `eq:ode2' on page 37 undefined on input line 2666.
+
+
+Package natbib Warning: Citation `Canuto-etal' on page 37 undefined on input li
+ne 2678.
+
+[37]
+
+LaTeX Warning: Reference `eq:cder' on page 38 undefined on input line 2701.
+
+
+LaTeX Warning: Reference `eq:cint' on page 38 undefined on input line 2701.
+
+
+LaTeX Warning: Reference `eq:cheb2' on page 38 undefined on input line 2702.
+
+
+Package natbib Warning: Citation `Greengard:siam' on page 38 undefined on input
+ line 2705.
+
+
+Package natbib Warning: Citation `Lundbladh-Henningson-Johansson:FFA' on page 3
+8 undefined on input line 2707.
+
+
+LaTeX Warning: Reference `eq:cder' on page 38 undefined on input line 2721.
+
+
+LaTeX Warning: Reference `eq:cheb2' on page 38 undefined on input line 2722.
+
+
+LaTeX Warning: Reference `tau-sys' on page 38 undefined on input line 2723.
+
+
+Package natbib Warning: Citation `Canuto-etal' on page 38 undefined on input li
+ne 2724.
+
+
+LaTeX Warning: Reference `eq:ode2' on page 38 undefined on input line 2744.
+
+
+LaTeX Warning: Reference `eq:cbc+' on page 38 undefined on input line 2746.
+
+
+LaTeX Warning: Reference `eq:cbcd-' on page 38 undefined on input line 2746.
+
+
+LaTeX Warning: Reference `tau-sys' on page 38 undefined on input line 2757.
+
+[38]
+
+LaTeX Warning: Reference `tau-sys' on page 39 undefined on input line 2766.
+
+
+Package natbib Warning: Citation `Kleiser-Schumann' on page 39 undefined on inp
+ut line 2773.
+
+
+LaTeX Warning: Reference `eq:fu' on page 39 undefined on input line 2788.
+
+
+LaTeX Warning: Reference `eq:fom3' on page 39 undefined on input line 2788.
+
+
+LaTeX Warning: Reference `eq:cint' on page 39 undefined on input line 2793.
+
+
+LaTeX Warning: Reference `eq:cheb2' on page 39 undefined on input line 2793.
+
+
+LaTeX Warning: Reference `tau-bc' on page 39 undefined on input line 2816.
+
+
+LaTeX Warning: Reference `eq:cheb2' on page 39 undefined on input line 2817.
+
+
+LaTeX Warning: Reference `tau-bc' on page 39 undefined on input line 2819.
+
+
+LaTeX Warning: Reference `eq:ode2' on page 39 undefined on input line 2831.
+
+
+LaTeX Warning: Reference `eq:cdsys' on page 39 undefined on input line 2833.
+
+
+LaTeX Warning: Reference `eq:cdbc' on page 39 undefined on input line 2833.
+
+
+LaTeX Warning: Reference `eq:cint' on page 39 undefined on input line 2842.
+
+[39]
+
+LaTeX Warning: Reference `eq:cder' on page 40 undefined on input line 2859.
+
+
+LaTeX Warning: Reference `eq:cint' on page 40 undefined on input line 2865.
+
+
+LaTeX Warning: Reference `eq:cder' on page 40 undefined on input line 2873.
+
+
+LaTeX Warning: Reference `eq:dcorr1' on page 40 undefined on input line 2874.
+
+
+Package amsmath Warning: Foreign command \atop;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 2880.
+
+
+LaTeX Warning: Reference `eq:fu' on page 40 undefined on input line 2909.
+
+
+LaTeX Warning: Reference `eq:fom3' on page 40 undefined on input line 2909.
+
+
+LaTeX Warning: Reference `eq:co' on page 40 undefined on input line 2912.
+
+[40] [41] [42
+
+]
+
+LaTeX Warning: Reference `sec:blafile' on page 43 undefined on input line 3000.
+
+
+[43]
+
+LaTeX Warning: Reference `sec:scale' on page 44 undefined on input line 3012.
+
+
+LaTeX Warning: Reference `sec:storage' on page 44 undefined on input line 3065.
+
+
+[44] [45]
+
+LaTeX Warning: Reference `sec:memory' on page 46 undefined on input line 3162.
+
+
+LaTeX Warning: Reference `sec:memory' on page 46 undefined on input line 3163.
+
+[46]
+
+LaTeX Warning: Reference `fig:oddball' on page 47 undefined on input line 3264.
+
+
+<./figures/oddball.jpg, id=541, 645.3711pt x 522.9939pt>
+File: ./figures/oddball.jpg Graphic file (type jpg)
+
+<use ./figures/oddball.jpg>
+Package pdftex.def Info: ./figures/oddball.jpg used on input line 3274.
+(pdftex.def)             Requested size: 272.80104pt x 221.07642pt.
+ [47]
+
+Package natbib Warning: Citation `Alvelius-Skote' on page 48 undefined on input
+ line 3375.
+
+[48 <./figures/oddball.jpg>] [49] [50
+
+]
+
+LaTeX Warning: Reference `sec:theory' on page 51 undefined on input line 3413.
+
+
+LaTeX Warning: Reference `sec:xysfile' on page 51 undefined on input line 3439.
+
+
+
+LaTeX Warning: Reference `sec:blafile' on page 51 undefined on input line 3447.
+
+
+
+LaTeX Warning: Reference `tab:par-file' on page 51 undefined on input line 3470
+.
+
+[51]
+
+LaTeX Warning: Reference `sec:geninit' on page 52 undefined on input line 3555.
+
+
+[52]
+
+LaTeX Warning: Reference `tab:flowtypes' on page 53 undefined on input line 357
+7.
+
+
+LaTeX Warning: Reference `tab:flowtypes' on page 53 undefined on input line 357
+7.
+
+
+LaTeX Warning: Reference `sec:spatfor' on page 53 undefined on input line 3608.
+
+
+[53] [54] [55]
+
+LaTeX Warning: Reference `eq:nsdist' on page 56 undefined on input line 3822.
+
+
+LaTeX Warning: Reference `tab:boundary-condition-list' on page 56 undefined on 
+input line 3835.
+
+
+LaTeX Warning: Reference `tab:boundary-condition-list' on page 56 undefined on 
+input line 3836.
+
+
+LaTeX Warning: Reference `freebc' on page 56 undefined on input line 3836.
+
+[56]
+
+LaTeX Warning: Reference `sec:spatfor' on page 57 undefined on input line 3904.
+
+
+
+LaTeX Warning: Reference `sec:frefile' on page 57 undefined on input line 3910.
+
+
+
+LaTeX Warning: Reference `sec:velfile' on page 57 undefined on input line 3919.
+
+
+
+LaTeX Warning: Reference `sec:fwfile' on page 57 undefined on input line 3938.
+
+[57]
+
+LaTeX Warning: Reference `sec:tempfor_bou' on page 58 undefined on input line 3
+983.
+
+[58]
+Overfull \hbox (5.59033pt too wide) in paragraph at lines 4026--4028
+[]\OT1/cmr/bx/n/9 xscale \OT1/cmr/m/n/9 Length scale of the lo-cal-ized vol-ume
+ force dis-tur-bance in $\OML/cmm/m/it/9 x$\OT1/cmr/m/n/9 -direction;
+ []
+
+
+Overfull \hbox (5.22571pt too wide) in paragraph at lines 4030--4032
+[]\OT1/cmr/bx/n/9 yscale \OT1/cmr/m/n/9 Length scale of the lo-cal-ized vol-ume
+ force dis-tur-bance in $\OML/cmm/m/it/9 y$\OT1/cmr/m/n/9 -direction;
+ []
+
+
+Overfull \hbox (4.15073pt too wide) in paragraph at lines 4032--4034
+[]\OT1/cmr/bx/n/9 zscale \OT1/cmr/m/n/9 Length scale of the lo-cal-ized vol-ume
+ force dis-tur-bance in $\OML/cmm/m/it/9 z$\OT1/cmr/m/n/9 -direction;
+ []
+
+[59]
+
+LaTeX Warning: Reference `eq:s' on page 60 undefined on input line 4150.
+
+
+LaTeX Warning: Reference `sec:roughness' on page 60 undefined on input line 415
+2.
+
+
+LaTeX Warning: Reference `sec:wlroughfile' on page 60 undefined on input line 4
+160.
+
+
+LaTeX Warning: Reference `sec:jet-in-crossflow' on page 60 undefined on input l
+ine 4162.
+
+[60]
+
+LaTeX Warning: Reference `sec:xysfile' on page 61 undefined on input line 4203.
+
+
+
+LaTeX Warning: Reference `sec:twopointfile' on page 61 undefined on input line 
+4223.
+
+
+LaTeX Warning: Reference `sec:timeseriesfile' on page 61 undefined on input lin
+e 4238.
+
+[61]
+Overfull \hbox (14.36519pt too wide) in paragraph at lines 4275--4279
+[]\OT1/cmr/bx/n/9 kx kz \OT1/cmr/m/n/9 The stream-wise wavenum-ber as mul-ti-pl
+es of the fun-da-men-tal wavenum-
+ []
+
+
+LaTeX Warning: Reference `sec:planefile' on page 62 undefined on input line 430
+7.
+
+[62] [63]
+Overfull \hbox (5.44002pt too wide) in paragraph at lines 4471--4481
+\OT1/cmr/m/n/9 span-wise vor-tic-ity with-out Bla-sius base flow; \OT1/cmr/m/it
+/9 real\OT1/cmr/m/n/9 , mean squared vor-tic-ity squared
+ []
+
+[64]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4568.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4568.
+
+[65] [66] [67] [68] [69]
+No file simson-user-guide.bbl.
+[70
+
+]
+
+Package natbib Warning: Citation `Henningson-Lundbladh-Johansson:local' on page
+ 71 undefined on input line 4907.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4926.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 4926.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\tau' on input line 4926.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4926.
+
+
+LaTeX Warning: Reference `sec:tempfor_chan' on page 71 undefined on input line 
+4939.
+
+
+LaTeX Warning: Reference `eq:reynolds-couette' on page 71 undefined on input li
+ne 4954.
+
+
+Package natbib Warning: Citation `Lundbladh-Johansson' on page 71 undefined on 
+input line 4963.
+
+
+LaTeX Warning: Reference `sec:baseflows' on page 71 undefined on input line 497
+3.
+
+[71]
+
+Package natbib Warning: Citation `mhogberg:dhenningson' on page 72 undefined on
+ input line 4993.
+
+
+Package natbib Warning: Citation `chevalier:hoepffner:akervik:henningson:2007' 
+on page 72 undefined on input line 4994.
+
+
+Package natbib Warning: Citation `levin:2006b' on page 72 undefined on input li
+ne 5005.
+
+<./figures/ts_1.pdf, id=929, 465.74pt x 333.245pt>
+File: ./figures/ts_1.pdf Graphic file (type pdf)
+ <use ./figures/ts_1.pdf>
+Package pdftex.def Info: ./figures/ts_1.pdf used on input line 5027.
+(pdftex.def)             Requested size: 153.69467pt x 109.97118pt.
+
+<./figures/ts_2.pdf, id=930, 465.74pt x 333.245pt>
+File: ./figures/ts_2.pdf Graphic file (type pdf)
+ <use ./figures/ts_2.pdf>
+Package pdftex.def Info: ./figures/ts_2.pdf used on input line 5028.
+(pdftex.def)             Requested size: 153.69467pt x 109.97118pt.
+
+
+LaTeX Warning: Reference `fig:example_blasius' on page 72 undefined on input li
+ne 5047.
+
+
+LaTeX Warning: Reference `fig:example_blasius' on page 72 undefined on input li
+ne 5050.
+
+
+LaTeX Warning: Reference `fig:example_blasius' on page 72 undefined on input li
+ne 5061.
+
+
+LaTeX Warning: Reference `eq:trip' on page 72 undefined on input line 5074.
+
+
+LaTeX Warning: Reference `sec:blafile' on page 72 undefined on input line 5074.
+
+
+[72]
+
+LaTeX Warning: Reference `sec:temp-fsc-example' on page 73 undefined on input l
+ine 5092.
+
+
+LaTeX Warning: Reference `fig:spatial-fsc' on page 73 undefined on input line 5
+099.
+
+
+
+pdfTeX warning: pdflatex (file ./figures/fsc-spatial-growth.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<./figures/fsc-spatial-growth.pdf, id=938, 584.5235pt x 256.94093pt>
+File: ./figures/fsc-spatial-growth.pdf Graphic file (type pdf)
+
+<use ./figures/fsc-spatial-growth.pdf>
+Package pdftex.def Info: ./figures/fsc-spatial-growth.pdf used on input line 51
+05.
+(pdftex.def)             Requested size: 289.85208pt x 127.4155pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `Hogberg-Henningson:98' on page 73 undefined o
+n input line 5113.
+
+
+Package natbib Warning: Citation `mhogberg:dhenningson' on page 73 undefined on
+ input line 5114.
+
+
+Package natbib Warning: Citation `chevalier:hoepffner:akervik:henningson:2007' 
+on page 73 undefined on input line 5115.
+
+[73 <./figures/ts_1.pdf> <./figures/ts_2.pdf>] [74 <./figures/fsc-spatial-growt
+h.pdf>]
+
+Package natbib Warning: There were undefined citations.
+
+[75
+
+]
+\tf@toc=\write5
+\openout5 = `simson-user-guide.toc'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5148.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5148.
+ (./simson-user-guide.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5148.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5148.
+
+
+
+Package rerunfilecheck Warning: File `simson-user-guide.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `simson-user-guide.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  F3A668DB78A4F86D0C3C017154EA2062;4055.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5148.
+ ) 
+Here is how much of TeX's memory you used:
+ 11154 strings out of 493029
+ 155389 string characters out of 6136234
+ 293826 words of memory out of 5000000
+ 13920 multiletter control sequences out of 15000+600000
+ 29175 words of font info for 108 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 34i,18n,32p,3334b,588s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmss17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on simson-user-guide.pdf (81 pages, 1864796 bytes).
+PDF statistics:
+ 1223 PDF objects out of 1440 (max. 8388607)
+ 1077 compressed objects within 11 object streams
+ 624 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+
